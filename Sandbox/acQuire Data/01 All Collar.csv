@@ -1,0 +1,5 @@
+HOLEID,PROJECTCODE,TENEMENTID,GRIDNAME,HOLETYPE,EAST,NORTH,RL,DEPTH,PROSPECT,STARTDATE,ENDDATE,Grid_Original,Logged_By,DrillCompany,Rig,AMG_Z50_X,AMG_Z50_Y,AMG_Z50_Z,Merlot_X,Merlot_Y,Merlot_Z,MGA_Z50_X,MGA_Z50_Y,MGA_Z50_Z,WGS84_X,WGS84_Y,WGS84_Z,South_X,South_Y,South_Z,Mine_X,Mine_Y,Mine_Z,Uground_X,Uground_Y,Uground_Z,Status,HoleComments
+RPN123,Merlot,,,DRILLHOLE,,,,133,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RPN124,Merlot,,,DRILLHOLE,,,,101,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SRC122,Merlot,E446,Merlot,DRILLHOLE,11619.4,10198.9,287.004,80,Shiraz,16-Nov-2001,16-Nov-2001,Jumbing Jack,GRG,Davis,,333295.677,6254619.0973,287.004,,,,,,,,,,,,,,,,,,,,
+SRC123,Merlot,E446,Merlot,DRILLHOLE,11678.8,10238.1,285.312,96,Shiraz,16-Nov-2001,,Jumbing Jack,GRG,Davis,,333349.9193,6254664.4397,285.312,,,,,,,,,,,,,,,,,,,,
