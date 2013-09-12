@@ -1,0 +1,747 @@
+FIELDTABLE,FIELDNAME,LOOKUP,DESCRIPTION,NUMEQUIV,FIELDORDER,REPORTDESC,PATTERN,FONT,TEXTCOLOR,BACKCOLOR,SUBGROUP,ACTIVE
+"COSTCODE","Authority","FF Loyd","Accountant",,,"","","",,,"",1
+"COSTCODE","Authority","GT Small","Senior Geologist",,,"","","",,,"",1
+"COSTCODE","Authority","R Stonyfell","Assist Accountant",,,"","","",,,"",1
+"COSTCODE","Authority","TR Street","Exploration Manager",,,"","","",,,"",1
+"DESPATCHCODE","Transport","TNT","to Welshpool",,,"","","",,,"",1
+"DESPATCHCODE","Transport","Ex Leonora","",,,"","","",,,"",1
+"DESPATCHCODE","Transport","Ex Kalgoorlie","",,,"","","",,,"",1
+"DESPATCHCODE","Transport","Smith Trans","",,,"","","",,,"",1
+"GEOLOGYCODESECONDARY","Altern1","AB","Albite",,0,"","FBFAEAG145A211","Interdex Hatch Patterns",13366270,13366270,"",1
+"GEOLOGYCODESECONDARY","Altern1","AC","Actinolite",,1,"","F5E29EG145A211","Interdex Hatch Patterns",10932733,10932733,"",1
+"GEOLOGYCODESECONDARY","Altern1","AD","Andulusite",,2,"","C5F07BG145A211","Interdex Hatch Patterns",9947901,9947901,"",1
+"GEOLOGYCODESECONDARY","Altern1","AF","Alkali feldspar",,3,"","B6EA6FG145A211","Interdex Hatch Patterns",6927356,6927356,"",1
+"GEOLOGYCODESECONDARY","Altern1","AG","Silver",,4,"","73BB22G145A211","Interdex Hatch Patterns",6335995,6335995,"",1
+"GEOLOGYCODESECONDARY","Altern1","AH","Anhydrite",,5,"","67A837G145A211","Interdex Hatch Patterns",3972091,3972091,"",1
+"GEOLOGYCODESECONDARY","Altern1","AK","Ankerite",,6,"","60A034G145A211","Interdex Hatch Patterns",15593208,15593208,"",1
+"GEOLOGYCODESECONDARY","Altern1","AL","Aluminosilicate",,7,"","366C00G145A211","Interdex Hatch Patterns",11843810,11843810,"",1
+"GEOLOGYCODESECONDARY","Altern1","AM","Amphibole",,8,"","E6C8D5G145A211","Interdex Hatch Patterns",9015763,9015763,"",1
+"GEOLOGYCODESECONDARY","Altern1","AN","Anthrophyllite",,9,"","D8A5B1G145A211","Interdex Hatch Patterns",7108296,7108296,"",1
+"GEOLOGYCODESECONDARY","Altern1","AP","Apatite",,10,"","BC709DG145A211","Interdex Hatch Patterns",6515909,6515909,"",1
+"GEOLOGYCODESECONDARY","Altern1","AS","Arsenopyrite",,11,"","E2D1ADG145A211","Interdex Hatch Patterns",13565926,13565926,"",1
+"GEOLOGYCODESECONDARY","Altern1","AT","Alunite",,12,"","C59B69G145A211","Interdex Hatch Patterns",13168576,13168576,"",1
+"GEOLOGYCODESECONDARY","Altern1","AU","Gold",,13,"","BE9756G145A211","Interdex Hatch Patterns",13295001,13295001,"",1
+"GEOLOGYCODESECONDARY","Altern1","AZ","Azurite",,14,"","EACCF7G145A211","Interdex Hatch Patterns",7846778,7846778,"",1
+"GEOLOGYCODESECONDARY","Altern1","BA","Barite",,15,"","E0A9DFG145A211","Interdex Hatch Patterns",14476480,14476480,"",1
+"GEOLOGYCODESECONDARY","Altern1","BE","Beryl",,16,"","FF2FFFG145A211","Interdex Hatch Patterns",12568969,12568969,"",1
+"GEOLOGYCODESECONDARY","Altern1","BI","Biotite",,17,"","AA55BFG145A211","Interdex Hatch Patterns",16440542,16440542,"",1
+"GEOLOGYCODESECONDARY","Altern1","BL","Bleached",,18,"","C648C6G145A211","Interdex Hatch Patterns",13483143,13483143,"",1
+"GEOLOGYCODESECONDARY","Altern1","BN","Bornite",,19,"","BD5991G145A211","Interdex Hatch Patterns",13876152,13876152,"",1
+"GEOLOGYCODESECONDARY","Altern1","CA","Calcite",,20,"","DDDDFFG145A211","Interdex Hatch Patterns",13615579,13615579,"",1
+"GEOLOGYCODESECONDARY","Altern1","CB","Carbonate",,21,"","B3B3FFG145A211","Interdex Hatch Patterns",13756905,13756905,"",1
+"GEOLOGYCODESECONDARY","Altern1","CC","Chalcocite",,22,"","8080FFG145A211","Interdex Hatch Patterns",11261654,11261654,"",1
+"GEOLOGYCODESECONDARY","Altern1","CD","Cordierite",,23,"","5E5EFFG145A211","Interdex Hatch Patterns",10407887,10407887,"",1
+"GEOLOGYCODESECONDARY","Altern1","CE","Cerrusite",,24,"","2C56E9G145A211","Interdex Hatch Patterns",6401967,6401967,"",1
+"GEOLOGYCODESECONDARY","Altern1","CH","Chlorite",,25,"","CCDAEAG145A211","Interdex Hatch Patterns",16768511,16768511,"",1
+"GEOLOGYCODESECONDARY","Altern1","CL","Calcareous",,26,"","BEBEDEG145A211","Interdex Hatch Patterns",16777173,16777173,"",1
+"GEOLOGYCODESECONDARY","Altern1","CM","Cummingtonite",,27,"","8989C5G145A211","Interdex Hatch Patterns",15132415,15132415,"",1
+"GEOLOGYCODESECONDARY","Altern1","CN","Carnotite",,28,"","5454A9G145A211","Interdex Hatch Patterns",16759739,16759739,"",1
+"GEOLOGYCODESECONDARY","Altern1","CO","Corundum",,29,"","404080G145A211","Interdex Hatch Patterns",11064319,11064319,"",1
+"GEOLOGYCODESECONDARY","Altern1","CP","Chalcopyrite",,30,"","CDE2EDG145A211","Interdex Hatch Patterns",12058551,12058551,"",1
+"GEOLOGYCODESECONDARY","Altern1","CR","Chromite",,31,"","96BFD6G145A211","Interdex Hatch Patterns",13565951,13565951,"",1
+"GEOLOGYCODESECONDARY","Altern1","CS","Cassiterite",,32,"","5CA3BAG145A211","Interdex Hatch Patterns",15198159,15198159,"",1
+"GEOLOGYCODESECONDARY","Altern1","CT","Chloritoid",,33,"","4B839AG145A211","Interdex Hatch Patterns",,15791615,"",1
+"GEOLOGYCODESECONDARY","Altern1","CU","Copper",,34,"","7BA3CEG145A211","Interdex Hatch Patterns",,12703487,"",1
+"GEOLOGYCODESECONDARY","Altern1","CV","Covellite",,35,"","4F91B5G145A211","Interdex Hatch Patterns",,8695039,"",1
+"GEOLOGYCODESECONDARY","Altern1","CX","Clinopyroxene",,36,"","437996G145A211","Interdex Hatch Patterns",,4227327,"",1
+"GEOLOGYCODESECONDARY","Altern1","DO","Dolomite",,38,"","6CCFE8G145A211","Interdex Hatch Patterns",,3635455,"",1
+"GEOLOGYCODESECONDARY","Altern1","DP","Diopside",,39,"","2DA0BDG145A211","Interdex Hatch Patterns",,875519,"",1
+"GEOLOGYCODESECONDARY","Altern1","EP","Epidote",,40,"","EFCBF5G145A211","Interdex Hatch Patterns",,4752639,"",1
+"GEOLOGYCODESECONDARY","Altern1","FD","Feldspar",,41,"","D2A6FFG145A211","Interdex Hatch Patterns",,13990,"",1
+"GEOLOGYCODESECONDARY","Altern1","FE","Ferruginous/iron",,42,"","AE5EFFG145A211","Interdex Hatch Patterns",,11656,"",1
+"GEOLOGYCODESECONDARY","Altern1","FL","Fluorite",,43,"","8F20FFG145A211","Interdex Hatch Patterns",,16116991,"",1
+"GEOLOGYCODESECONDARY","Altern1","FP","Feldspathoids",,44,"","7C00F9G145A211","Interdex Hatch Patterns",,14862079,"",1
+"GEOLOGYCODESECONDARY","Altern1","FU","Fuchsite",,45,"","6500CAG145A211","Interdex Hatch Patterns",,12351999,"",1
+"GEOLOGYCODESECONDARY","Altern1","GA","Gahnite",,46,"","DDFFBBG145A211","Interdex Hatch Patterns",,9577727,"",1
+"GEOLOGYCODESECONDARY","Altern1","GI","Gibbsite",,47,"","B1FF97G145A211","Interdex Hatch Patterns",,7405793,"",1
+"GEOLOGYCODESECONDARY","Altern1","GL","Glauconite",,48,"","6CFF3CG145A211","Interdex Hatch Patterns",,5177501,"",1
+"GEOLOGYCODESECONDARY","Altern1","GN","Galena",,49,"","57C60DG145A211","Interdex Hatch Patterns",,3932279,"",1
+"GEOLOGYCODESECONDARY","Altern1","GO","Goethite",,50,"","CCDDFFG145A211","Interdex Hatch Patterns",,3473514,"",1
+"GEOLOGYCODESECONDARY","Altern1","GR","Graphite",,51,"","82AAFFG145A211","Interdex Hatch Patterns",,15532031,"",1
+"GEOLOGYCODESECONDARY","Altern1","GT","Garnet",,52,"","4080FFG145A211","Interdex Hatch Patterns",,12713983,"",1
+"GEOLOGYCODESECONDARY","Altern1","GU","Gruneirite",,53,"","4FF2G145A211","Interdex Hatch Patterns",,5898239,"",1
+"GEOLOGYCODESECONDARY","Altern1","GY","Gypsum",,54,"","3CB7G145A211","Interdex Hatch Patterns",,917503,"",1
+"GEOLOGYCODESECONDARY","Altern1","HA","Haematized",,55,"","CCFFFFG145A211","Interdex Hatch Patterns",,56797,"",1
+"GEOLOGYCODESECONDARY","Altern1","HB","Hornblende",,56,"","75FFFFG145A211","Interdex Hatch Patterns",,40349,"",1
+"GEOLOGYCODESECONDARY","Altern1","HE","Haematite",,57,"","F2F2G145A211","Interdex Hatch Patterns",,16764573,"",1
+"GEOLOGYCODESECONDARY","Altern1","IC","Iron clay",,58,"","BFBFG145A211","Interdex Hatch Patterns",,13495460,"",1
+"GEOLOGYCODESECONDARY","Altern1","IL","Illite",,59,"","6A6AG145A211","Interdex Hatch Patterns",,16777196,"",1
+"GEOLOGYCODESECONDARY","Altern1","IM","Limenite",,60,"","EFE2D3G145A211","Interdex Hatch Patterns",,16777143,"",1
+"GEOLOGYCODESECONDARY","Altern1","IR","Ironstone",,61,"","DEC098G145A211","Interdex Hatch Patterns",,16777049,"",1
+"GEOLOGYCODESECONDARY","Altern1","JA","Jarosite",,62,"","BB895BG145A211","Interdex Hatch Patterns",,16776981,"",1
+"GEOLOGYCODESECONDARY","Altern1","KA","Kaolin",,63,"","AA863CG145A211","Interdex Hatch Patterns",,12566272,"",1
+"GEOLOGYCODESECONDARY","Altern1","KF","K-feldspar",,64,"","936355G145A211","Interdex Hatch Patterns",,11447808,"",1
+"GEOLOGYCODESECONDARY","Altern1","KY","Kyanite",,66,"","EBD7FFG145A211","Interdex Hatch Patterns",,9210880,"",1
+"GEOLOGYCODESECONDARY","Altern1","LE","Lepidolite",,67,"","CB97FFG145A211","Interdex Hatch Patterns",,7960832,"",1
+"GEOLOGYCODESECONDARY","Altern1","LM","Limonite",,68,"","9E3EFFG145A211","Interdex Hatch Patterns",,5855488,"",1
+"GEOLOGYCODESECONDARY","Altern1","LX","Leucoxene",,69,"","6100C1G145A211","Interdex Hatch Patterns",,16050922,"",1
+"GEOLOGYCODESECONDARY","Altern1","MA","Marcite",,70,"","400080G145A211","Interdex Hatch Patterns",,16772033,"",1
+"GEOLOGYCODESECONDARY","Altern1","MC","Malachite",,71,"","E6CCFFG145A211","Interdex Hatch Patterns",,16762186,"",1
+"GEOLOGYCODESECONDARY","Altern1","MI","Mica",,72,"","BC79FFG145A211","Interdex Hatch Patterns",,16761152,"",1
+"GEOLOGYCODESECONDARY","Altern1","ML","Millerite",,73,"","952BFFG145A211","Interdex Hatch Patterns",,16756230,"",1
+"GEOLOGYCODESECONDARY","Altern1","MM","Montmorillonite",,74,"","FFFFDFG145A211","Interdex Hatch Patterns",,13798912,"",1
+"GEOLOGYCODESECONDARY","Altern1","MN","Manganese oxides",,75,"","FFFF9FG145A211","Interdex Hatch Patterns",,12287488,"",1
+"GEOLOGYCODESECONDARY","Altern1","MO","Molybdenite",,76,"","FFFF15G145A211","Interdex Hatch Patterns",,10776320,"",1
+"GEOLOGYCODESECONDARY","Altern1","MS","Magnesite",,77,"","C6C600G145A211","Interdex Hatch Patterns",,9199360,"",1
+"GEOLOGYCODESECONDARY","Altern1","MT","Magnetite",,78,"","848400G145A211","Interdex Hatch Patterns",,16314623,"",1
+"GEOLOGYCODESECONDARY","Altern1","MV","Muscovite",,79,"","848400G145A211","Interdex Hatch Patterns",,16765695,"",1
+"GEOLOGYCODESECONDARY","Altern1","MZ","Monazite",,80,"","DDEEFFG145A211","Interdex Hatch Patterns",,16744703,"",1
+"GEOLOGYCODESECONDARY","Altern1","NSR","No Sample Received",,81,"","93C9FFG145A211","Interdex Hatch Patterns",,4194368,"",1
+"GEOLOGYCODESECONDARY","Altern1","OL","Olivine",,82,"","42A0FFG145A211","Interdex Hatch Patterns",,16729855,"",1
+"GEOLOGYCODESECONDARY","Altern1","OR","Orthoclase",,83,"","76ECG145A211","Interdex Hatch Patterns",16777215,15204584,"",1
+"GEOLOGYCODESECONDARY","Altern1","OX","Orthopyroxene",,84,"","5EBBG145A211","Interdex Hatch Patterns",,11403438,"",1
+"GEOLOGYCODESECONDARY","Altern1","PE","Prehnite",,85,"","4080G145A211","Interdex Hatch Patterns",,14528209,"",1
+"GEOLOGYCODESECONDARY","Altern1","PH","Phlogophite",,86,"","C0CFC5G145A211","Interdex Hatch Patterns",,15987699,"",1
+"GEOLOGYCODESECONDARY","Altern1","PL","Plagioclase",,87,"","95AD92G145A211","Interdex Hatch Patterns",,14737632,"",1
+"GEOLOGYCODESECONDARY","Altern1","PN","Pentlandite",,88,"","74956AG145A211","Interdex Hatch Patterns",,11184810,"",1
+"GEOLOGYCODESECONDARY","Altern1","PO","Pyrrhotite",,89,"","B4CFBEG145A211","Interdex Hatch Patterns",,10921638,"",1
+"GEOLOGYCODESECONDARY","Altern1","PR","Pyrophyllite",,90,"","759F83G145A211","Interdex Hatch Patterns",,8421504,"",1
+"GEOLOGYCODESECONDARY","Altern1","PX","Pyroxene",,91,"","5CA364G145A211","Interdex Hatch Patterns",,6381921,"",1
+"GEOLOGYCODESECONDARY","Altern1","PY","Pyrite",,92,"","B0BBCCG145A211","Interdex Hatch Patterns",,16056308,"",1
+"GEOLOGYCODESECONDARY","Altern1","QC","Quartz-carbonate",,93,"","7A93A9G145A211","Interdex Hatch Patterns",,12582847,"",1
+"GEOLOGYCODESECONDARY","Altern1","QZ","Quartz",,94,"","607195G145A211","Interdex Hatch Patterns",,11130542,"",1
+"GEOLOGYCODESECONDARY","Altern1","RD","Rhodochrosite",,95,"","4E579CG145A211","Interdex Hatch Patterns",,3997500,"",1
+"GEOLOGYCODESECONDARY","Altern1","SB","Stibnite",,97,"","AE9593G145A211","Interdex Hatch Patterns",,2162464,"",1
+"GEOLOGYCODESECONDARY","Altern1","SC","Scheelite",,98,"","9E6D5FG145A211","Interdex Hatch Patterns",,55040,"",1
+"GEOLOGYCODESECONDARY","Altern1","SD","Siderite",,99,"","BAABCDG145A211","Interdex Hatch Patterns",,40704,"",1
+"GEOLOGYCODESECONDARY","Altern1","SE","Sericite",,100,"","6D599BG145A211","Interdex Hatch Patterns",,13036731,"",1
+"GEOLOGYCODESECONDARY","Altern1","SF","Sodic feldspars",,101,"","C9BFD2G145A211","Interdex Hatch Patterns",,9298631,"",1
+"GEOLOGYCODESECONDARY","Altern1","SH","Sphene",,102,"","D0C0DEG145A211","Interdex Hatch Patterns",,16053503,"",1
+"GEOLOGYCODESECONDARY","Altern1","SI","Silica",,103,"","C5E4D2G145A211","Interdex Hatch Patterns",,13421823,"",1
+"GEOLOGYCODESECONDARY","Altern1","SL","Sillimanite",,104,"","A7CDB3G145A211","Interdex Hatch Patterns",,8421631,"",1
+"GEOLOGYCODESECONDARY","Altern1","SM","Smithsonite",,105,"","64AA80G145A211","Interdex Hatch Patterns",,6579455,"",1
+"GEOLOGYCODESECONDARY","Altern1","SN","Stannite",,106,"","508758G145A211","Interdex Hatch Patterns",,5460991,"",1
+"GEOLOGYCODESECONDARY","Altern1","SP","Sphalerite",,107,"","DCC0DAG145A211","Interdex Hatch Patterns",,2631935,"",1
+"GEOLOGYCODESECONDARY","Altern1","SR","Serpentine",,108,"","CFA5C7G145A211","Interdex Hatch Patterns",,234,"",1
+"GEOLOGYCODESECONDARY","Altern1","ST","Staurolite",,109,"","B56CADG145A211","Interdex Hatch Patterns",,179,"",1
+"GEOLOGYCODESECONDARY","Altern1","SU","Saussurite",,110,"","8A577DG145A211","Interdex Hatch Patterns",,170,"",1
+"GEOLOGYCODESECONDARY","Altern1","SX","Sulphide",,111,"","B9DBBFG145A211","Interdex Hatch Patterns",,13565951,"",1
+"GEOLOGYCODESECONDARY","Altern1","TA","Talc",,112,"","99C796G145A211","Interdex Hatch Patterns",,10223615,"",1
+"GEOLOGYCODESECONDARY","Altern1","TD","Tetrahedrite",,113,"","5AAB6FG145A211","Interdex Hatch Patterns",,5898239,"",1
+"GEOLOGYCODESECONDARY","Altern1","TE","Telluride",,114,"","6C9D68G145A211","Interdex Hatch Patterns",,1572863,"",1
+"GEOLOGYCODESECONDARY","Altern1","TM","Tourmaline",,115,"","C0DDDEG145A211","Interdex Hatch Patterns",,65535,"",1
+"GEOLOGYCODESECONDARY","Altern1","TT","Tremolite",,116,"","8DCACDG145A211","Interdex Hatch Patterns",,60652,"",1
+"GEOLOGYCODESECONDARY","Altern1","TZ","Topaz",,117,"","74B5B8G145A211","Interdex Hatch Patterns",,55769,"",1
+"GEOLOGYCODESECONDARY","Altern1","UR","Uraninite",,118,"","498F85G145A211","Interdex Hatch Patterns",,50372,"",1
+"GEOLOGYCODESECONDARY","Altern1","VL","Violarite",,119,"","468685G145A211","Interdex Hatch Patterns",,38293,"",1
+"GEOLOGYCODESECONDARY","Altern1","WF","Wolframite",,120,"","CCCEDDG145A211","Interdex Hatch Patterns",,13426175,"",1
+"GEOLOGYCODESECONDARY","Altern1","WO","Wollastonite",,121,"","9BA8CEG145A211","Interdex Hatch Patterns",,9812223,"",1
+"GEOLOGYCODESECONDARY","Altern1","ZO","Zoisite",,122,"","507396G145A211","Interdex Hatch Patterns",,6198015,"",1
+"GEOLOGYCODESECONDARY","Altern1","ZR","Zircon",,123,"","4E70A7G145A211","Interdex Hatch Patterns",,3372543,"",1
+"GEOLOGYCODESECONDARY","Altern1","ZW","Zinwaldite",,124,"","CBCD9CG145A211","Interdex Hatch Patterns",,20208,"",1
+"GEOLOGYCODESECONDARY","Altern1","KL","",,65,"","","",,,"",1
+"GEOLOGYCODESECONDARY","Altern1","RF","",,96,"","D3C0BCG145A211","Interdex Hatch Patterns",,,"",1
+"GEOLOGYCODESECONDARY","Altern1","CY","",,37,"","89DDF5G145A211","Interdex Hatch Patterns",,,"",1
+"GEOLOGYCODESECONDARY","Altern1_Intnsty","VW","Very weak (<5%)",,1,"","FFFF80G145A211","Interdex Hatch Patterns",16764928,16378060,"",1
+"GEOLOGYCODESECONDARY","Altern1_Intnsty","W","Weak (>5<20%)",,2,"","80FF80G145A211","Interdex Hatch Patterns",7012096,13299387,"",1
+"GEOLOGYCODESECONDARY","Altern1_Intnsty","M","Moderate (>20<80%)",,3,"","8000G145A211","Interdex Hatch Patterns",32768,6536823,"",1
+"GEOLOGYCODESECONDARY","Altern1_Intnsty","S","Strong (>50<80%)",,4,"","FFFFG145A211","Interdex Hatch Patterns",58367,7058908,"",1
+"GEOLOGYCODESECONDARY","Altern1_Intnsty","I","Intense (>80%)",,5,"","80G145A211","Interdex Hatch Patterns",8703,8703,"",1
+"GEOLOGYCODESECONDARY","Altern1_Intnsty","NSR","",,0,"","0G145A211","Interdex Hatch Patterns",4194368,4194368,"",1
+"GEOLOGYCODESECONDARY","Altern1_Style","AM","Amorthous",,1,"","DBB7A4G145A211","Interdex Hatch Patterns",16760576,16760576,"",1
+"GEOLOGYCODESECONDARY","Altern1_Style","AG","Aggregrate",,0,"","EADDCCG145A211","Interdex Hatch Patterns",16775680,16775680,"",1
+"GEOLOGYCODESECONDARY","Altern1_Style","CC","Cryptocrystalling",,2,"","C5764BG145A211","Interdex Hatch Patterns",13172480,13172480,"",1
+"GEOLOGYCODESECONDARY","Altern1_Style","DS","Disseminated",,3,"","C8E6C9G145A211","Interdex Hatch Patterns",9305856,13037742,"",1
+"GEOLOGYCODESECONDARY","Altern1_Style","EN","Encroaching",,4,"","8BDA8FG145A211","Interdex Hatch Patterns",5504768,5504768,"",1
+"GEOLOGYCODESECONDARY","Altern1_Style","FR","Front",,5,"","71C673G145A211","Interdex Hatch Patterns",1638144,1638144,"",1
+"GEOLOGYCODESECONDARY","Altern1_Style","HA","Halo",,6,"","5EC463G145A211","Interdex Hatch Patterns",65314,65314,"",1
+"GEOLOGYCODESECONDARY","Altern1_Style","OP","Overprint",,8,"","B1D8CBG145A211","Interdex Hatch Patterns",65373,65373,"",1
+"GEOLOGYCODESECONDARY","Altern1_Style","PA","Patchy",,9,"","70BEBCG145A211","Interdex Hatch Patterns",65431,10542232,"",1
+"GEOLOGYCODESECONDARY","Altern1_Style","PV","Pervasive",,10,"","46B7B1G145A211","Interdex Hatch Patterns",65490,5287800,"",1
+"GEOLOGYCODESECONDARY","Altern1_Style","SE","Selective",,12,"","97BDDFG145A211","Interdex Hatch Patterns",61695,61695,"",1
+"GEOLOGYCODESECONDARY","Altern1_Style","RG","Retrograde",,11,"","4B989AG145A211","Interdex Hatch Patterns",46591,46591,"",1
+"GEOLOGYCODESECONDARY","Altern1_Style","TD","Texturally destructive",,13,"","67ABD8G145A211","Interdex Hatch Patterns",31743,31743,"",1
+"GEOLOGYCODESECONDARY","Altern1_Style","TR","Texturally retentive",,14,"","4082C4G145A211","Interdex Hatch Patterns",16639,16639,"",1
+"GEOLOGYCODESECONDARY","Altern1_Style","UB","Ubiquitous",,15,"","FFG145A211","Interdex Hatch Patterns",1535,8425452,"",1
+"GEOLOGYCODESECONDARY","Altern1_Style","NSR","no sample",,7,"","0G145A211","Interdex Hatch Patterns",4194368,4194368,"",1
+"GEOLOGYCODESECONDARY","Colour","BE","Beige",,0,"","E7FBFEG145A211","Interdex Hatch Patterns",0,13366270,"",1
+"GEOLOGYCODESECONDARY","Colour","BF","Buff",,1,"","D3EFFEG145A211","Interdex Hatch Patterns",0,14347518,"",1
+"GEOLOGYCODESECONDARY","Colour","BL","Black",,2,"","0G145A211","Interdex Hatch Patterns",0,0,"",1
+"GEOLOGYCODESECONDARY","Colour","BR","Brown",,3,"","B7B7DBG145A211","Interdex Hatch Patterns",0,10198741,"",1
+"GEOLOGYCODESECONDARY","Colour","BU","Blue",,4,"","E7D6CFG145A211","Interdex Hatch Patterns",0,16710861,"",1
+"GEOLOGYCODESECONDARY","Colour","CR","Cream",,5,"","D5F4FDG145A211","Interdex Hatch Patterns",0,10932733,"",1
+"GEOLOGYCODESECONDARY","Colour","GB","Green-blue",,6,"","CED8A7G145A211","Interdex Hatch Patterns",0,13295001,"",1
+"GEOLOGYCODESECONDARY","Colour","GG","Grey-green",,7,"","A9C184G145A211","Interdex Hatch Patterns",0,11784611,"",1
+"GEOLOGYCODESECONDARY","Colour","GR","Green",,8,"","78C796G145A211","Interdex Hatch Patterns",0,7846778,"",1
+"GEOLOGYCODESECONDARY","Colour","GY","Grey",,9,"","DADADAG145A211","Interdex Hatch Patterns",0,15066597,"",1
+"GEOLOGYCODESECONDARY","Colour","KH","Khaki",,10,"","92C9C9G145A211","Interdex Hatch Patterns",0,12246236,"",1
+"GEOLOGYCODESECONDARY","Colour","MO","Mottled",,11,"","400080G0A5A401","Interdex Hatch Patterns",0,8421504,"",1
+"GEOLOGYCODESECONDARY","Colour","MV","Mauve",,12,"","FBC6E6G145A211","Interdex Hatch Patterns",0,16440542,"",1
+"GEOLOGYCODESECONDARY","Colour","NSR","No Sample Received",,13,"","0G145A2A1","Interdex Hatch Patterns",0,4194368,"",1
+"GEOLOGYCODESECONDARY","Colour","OC","Ochre",,14,"","8AACCEG145A211","Interdex Hatch Patterns",0,10932733,"",1
+"GEOLOGYCODESECONDARY","Colour","OR","Orange",,15,"","6289E6G145A211","Interdex Hatch Patterns",0,7978239,"",1
+"GEOLOGYCODESECONDARY","Colour","PI","Pink",,16,"","EFDFFFG145A211","Interdex Hatch Patterns",0,15980277,"",1
+"GEOLOGYCODESECONDARY","Colour","PP","Purple",,17,"","F5CDDFG145A211","Interdex Hatch Patterns",0,13615579,"",1
+"GEOLOGYCODESECONDARY","Colour","RD","Red",,18,"","BBC6FFG145A211","Interdex Hatch Patterns",0,12568823,"",1
+"GEOLOGYCODESECONDARY","Colour","WH","White",,19,"","","",0,,"",1
+"GEOLOGYCODESECONDARY","Colour","YE","Yellow",,20,"","C6FFFFG145A211","Interdex Hatch Patterns",0,13434879,"",1
+"GEOLOGYCODESECONDARY","Lith1","AEOL","Aeolian deposits",1,0,"","529ADCG0A62491","Interdex Hatch Patterns",,13366270,"",1
+"GEOLOGYCODESECONDARY","Lith1","SIFA","Amphibole iron formation",20,127,"","5269C9G0A5A5F1","Interdex Hatch Patterns",,10932733,"",1
+"GEOLOGYCODESECONDARY","Lith1","ALLV","Alluvium",1,1,"","5269C9G145A491","Interdex Hatch Patterns",,4227327,"",1
+"GEOLOGYCODESECONDARY","Lith1","AP","Aplite",30,2,"","A27446G0A5A381","Interdex Hatch Patterns",,16710861,"",1
+"GEOLOGYCODESECONDARY","Lith1","CAL","Calcrete",10,3,"","0G0A5A591","Interdex Hatch Patterns",,13565926,"",1
+"GEOLOGYCODESECONDARY","Lith1","CARB","Carbonate - unclassified",11,4,"","987D63G0A5A4C1","Interdex Hatch Patterns",,13168576,"",1
+"GEOLOGYCODESECONDARY","Lith1","CARP","Carbonate - pedogenic",12,5,"","987D63G145A4C1","Interdex Hatch Patterns",,7846778,"",1
+"GEOLOGYCODESECONDARY","Lith1","CLAY","Clay (<0.002mm)-transported",13,6,"","5269C9G0A5A231","Interdex Hatch Patterns",,7108296,"",1
+"GEOLOGYCODESECONDARY","Lith1","COLL","Colluvium",2,7,"","548B57G0A5A2F1","Interdex Hatch Patterns",,13483143,"",1
+"GEOLOGYCODESECONDARY","Lith1","CPIS","Calcrete pisoliths",14,8,"","424493G0A5A581","Interdex Hatch Patterns",,13565926,"",1
+"GEOLOGYCODESECONDARY","Lith1","ELUV","Eluvium",3,9,"","548B57G145A2B1","Interdex Hatch Patterns",,13168576,"",1
+"GEOLOGYCODESECONDARY","Lith1","FAN","Andesite",20,10,"","C08000G145A321","Interdex Hatch Patterns",,16710861,"",1
+"GEOLOGYCODESECONDARY","Lith1","FBX","Felsic volcanic breccia",21,11,"","A00000G145A321","Interdex Hatch Patterns",,14476480,"",1
+"GEOLOGYCODESECONDARY","Lith1","FD","Dacite",21,12,"","529ADCG0A5A2D1","Interdex Hatch Patterns",,13876152,"",1
+"GEOLOGYCODESECONDARY","Lith1","FIBX","Intermediate volcanic breccia",22,13,"","5269C9G145A2A1","Interdex Hatch Patterns",,13615579,"",1
+"GEOLOGYCODESECONDARY","Lith1","FIG","Ignimbrite, pyroclastic flow, quartz rich",23,14,"","808000G145A2E1","Interdex Hatch Patterns",,13366270,"",1
+"GEOLOGYCODESECONDARY","Lith1","FIIG","Ignimbrite, pyroclastic flow",24,15,"","1F53EFG145A3A1","Interdex Hatch Patterns",,13295001,"",1
+"GEOLOGYCODESECONDARY","Lith1","FIL","Latite",25,16,"","929B37G145A391","Interdex Hatch Patterns",,12568969,"",1
+"GEOLOGYCODESECONDARY","Lith1","FIM","Meta intermediate volcanics-unclassified",26,17,"","424493G145A321","Interdex Hatch Patterns",,13168576,"",1
+"GEOLOGYCODESECONDARY","Lith1","FISP","Sericite plagioclase schist",50,18,"","8080G145A3C1","Interdex Hatch Patterns",,10198741,"",1
+"GEOLOGYCODESECONDARY","Lith1","FITF","Intermediate tuff-ash fall",27,19,"","800080G0A5A2D1","Interdex Hatch Patterns",,13366270,"",1
+"GEOLOGYCODESECONDARY","Lith1","FIV","Intermediate volcanics - unclassified",28,20,"","1F53EFG1E5A321","Interdex Hatch Patterns",,10932733,"",1
+"GEOLOGYCODESECONDARY","Lith1","FM","Meta-felsic-unclassified",51,22,"","519F94G145A4B1","Interdex Hatch Patterns",,4480232,"",1
+"GEOLOGYCODESECONDARY","Lith1","FPCS","Plagioclase chlorite sericite shcist",52,23,"","929B37G145A3B1","Interdex Hatch Patterns",,10198741,"",1
+"GEOLOGYCODESECONDARY","Lith1","FR","Rhyolite",28,24,"","FF8000G145A391","Interdex Hatch Patterns",,7108296,"",1
+"GEOLOGYCODESECONDARY","Lith1","FRA","Alkali rhyolite",29,25,"","A00000G145A391","Interdex Hatch Patterns",,13565926,"",1
+"GEOLOGYCODESECONDARY","Lith1","FRD","Rhyodacite",200,26,"","548B57G145A391","Interdex Hatch Patterns",,13168576,"",1
+"GEOLOGYCODESECONDARY","Lith1","FSMB","Sericite muscovite biotite shcist",53,27,"","529ADCG145A3B1","Interdex Hatch Patterns",,13295001,"",1
+"GEOLOGYCODESECONDARY","Lith1","FSMS","Sericite muscovite shcist",54,28,"","5269C9G145A3B1","Interdex Hatch Patterns",,7846778,"",1
+"GEOLOGYCODESECONDARY","Lith1","FSQC","Sericite quartz chlorite shcist",55,29,"","408000G145A3B1","Interdex Hatch Patterns",,16710861,"",1
+"GEOLOGYCODESECONDARY","Lith1","FTFA","Felsic tuff - ashfall",201,30,"","929B37G145A351","Interdex Hatch Patterns",,14476480,"",1
+"GEOLOGYCODESECONDARY","Lith1","FTFC","Felsic tuff - cherty",202,31,"","1F53EFG145A351","Interdex Hatch Patterns",,12568969,"",1
+"GEOLOGYCODESECONDARY","Lith1","FTR","Trachyte",203,32,"","5269C9G145A551","Interdex Hatch Patterns",,16440542,"",1
+"GEOLOGYCODESECONDARY","Lith1","FV","Felsic volcanics - unclassified",204,33,"","8000FFG145A361","Interdex Hatch Patterns",,13483143,"",1
+"GEOLOGYCODESECONDARY","Lith1","GAS","Alkali syenite",205,34,"","408000G145A361","Interdex Hatch Patterns",,13876152,"",1
+"GEOLOGYCODESECONDARY","Lith1","GDI","Diorite",206,35,"","987D63G145A361","Interdex Hatch Patterns",,13615579,"",1
+"GEOLOGYCODESECONDARY","Lith1","GM","Gneiss - unclassified",40,36,"","424493G145A481","Interdex Hatch Patterns",,4194432,"",1
+"GEOLOGYCODESECONDARY","Lith1","GMD","Monzogabbro",41,37,"","808000G145A381","Interdex Hatch Patterns",,12632256,"",1
+"GEOLOGYCODESECONDARY","Lith1","GMZ","Monzodiorite",42,38,"","4080FFG0A5A381","Interdex Hatch Patterns",,8421504,"",1
+"GEOLOGYCODESECONDARY","Lith1","GNO","Orthogneiss",43,39,"","C08000G0F5A311","Interdex Hatch Patterns",,12568969,"",1
+"GEOLOGYCODESECONDARY","Lith1","GOSS","Gossan",100,40,"","400080G145A3E1","Interdex Hatch Patterns",,14476480,"",1
+"GEOLOGYCODESECONDARY","Lith1","GR","Granitoid - unclassified",44,41,"","400080G145A481","Interdex Hatch Patterns",,13168576,"",1
+"GEOLOGYCODESECONDARY","Lith1","GRA","Alkali granite",45,42,"","8080G145A481","Interdex Hatch Patterns",,13434879,"",1
+"GEOLOGYCODESECONDARY","Lith1","GRD","Granodiorite",46,43,"","519F94G145A481","Interdex Hatch Patterns",,14017279,"",1
+"GEOLOGYCODESECONDARY","Lith1","GRQ","Quartz diorite",47,44,"","8080FFG0A5A481","Interdex Hatch Patterns",,15654399,"",1
+"GEOLOGYCODESECONDARY","Lith1","GRT","Granite",48,45,"","408000G145A481","Interdex Hatch Patterns",,16767449,"",1
+"GEOLOGYCODESECONDARY","Lith1","GRVL","Gravel",1,46,"","8080G0A5A301","Interdex Hatch Patterns",,15720158,"",1
+"GEOLOGYCODESECONDARY","Lith1","GSY","Syenite",22,47,"","400080G145A551","Interdex Hatch Patterns",,16768477,"",1
+"GEOLOGYCODESECONDARY","Lith1","GTO","Tonalite",23,48,"","FF8000G145A371","Interdex Hatch Patterns",,14408631,"",1
+"GEOLOGYCODESECONDARY","Lith1","HARD","Hardpan",1,49,"","8080G0A5A231","Interdex Hatch Patterns",,12706047,"",1
+"GEOLOGYCODESECONDARY","Lith1","IRST","Undifferentiated ironstone",10,50,"","424493G0A5A411","Interdex Hatch Patterns",,12698111,"",1
+"GEOLOGYCODESECONDARY","Lith1","LFER","Ferricrete",10,51,"","987D63G145A411","Interdex Hatch Patterns",,15461334,"",1
+"GEOLOGYCODESECONDARY","Lith1","LLAT","Laterite - undifferentiated",10,52,"","4080FFG145A411","Interdex Hatch Patterns",,10932733,"",1
+"GEOLOGYCODESECONDARY","Lith1","LLSP","Lower saprolite",1,53,"","808000G145A521","Interdex Hatch Patterns",,4480232,"",1
+"GEOLOGYCODESECONDARY","Lith1","LLSZ","Saprolite - silicified",1,54,"","4080FFG145A521","Interdex Hatch Patterns",,10198741,"",1
+"GEOLOGYCODESECONDARY","Lith1","LPIS","Laterite - pisoliths",1,55,"","408000G145A411","Interdex Hatch Patterns",,7108296,"",1
+"GEOLOGYCODESECONDARY","Lith1","LRDX","Saprolite - redox zone",1,56,"","FFG145A521","Interdex Hatch Patterns",,13615579,"",1
+"GEOLOGYCODESECONDARY","Lith1","LSRK","Saprock",1,57,"","400080G145A511","Interdex Hatch Patterns",,13876152,"",1
+"GEOLOGYCODESECONDARY","Lith1","LSSZ","Saprolite - silicified cap rock (ultramafic)",1,58,"","0G145A3A1","Interdex Hatch Patterns",,14803425,"",1
+"GEOLOGYCODESECONDARY","Lith1","LUMO","Upper saprolite - mottled",1,59,"","63B0E4G145A511","Interdex Hatch Patterns",,13224393,"",1
+"GEOLOGYCODESECONDARY","Lith1","LUSP","Upper saprolite",1,60,"","60A853G145A3F1","Interdex Hatch Patterns",,10395294,"",1
+"GEOLOGYCODESECONDARY","Lith1","MA","Amphibolite-undifferentiated",50,61,"","400080G145A3F1","Interdex Hatch Patterns",,16767449,"",1
+"GEOLOGYCODESECONDARY","Lith1","MACS","Calc silicate altered amphibolite",50,62,"","B39853G145A321","Interdex Hatch Patterns",,15654365,"",1
+"GEOLOGYCODESECONDARY","Lith1","MAG","Mafic agglomerate",10,63,"","400080G145A361","Interdex Hatch Patterns",,13031935,"",1
+"GEOLOGYCODESECONDARY","Lith1","MAN","Anorthosite",30,64,"","408000G145A501","Interdex Hatch Patterns",,13434828,"",1
+"GEOLOGYCODESECONDARY","Lith1","MAQ","Quartz amphibolite-(+/- feldspar)",55,65,"","80G145A501","Interdex Hatch Patterns",,11524312,"",1
+"GEOLOGYCODESECONDARY","Lith1","MAQB","Biotite altered quartz amphibolite",55,66,"","C08000G145A321","Interdex Hatch Patterns",,8897218,"",1
+"GEOLOGYCODESECONDARY","Lith1","MAQBC","Biotite & calc-silica altered amphibolite",55,67,"","408000G145A321","Interdex Hatch Patterns",,9882571,"",1
+"GEOLOGYCODESECONDARY","Lith1","MAQBS","Quartz biotite schist",55,68,"","80FFG145A3B1","Interdex Hatch Patterns",,14671807,"",1
+"GEOLOGYCODESECONDARY","Lith1","MAQCS","Calc silicate altered quartz amphibolite",55,69,"","400080G145A321","Interdex Hatch Patterns",,12568969,"",1
+"GEOLOGYCODESECONDARY","Lith1","MAQL","Leucocratic quartz amphibolite",55,70,"","800000G145A321","Interdex Hatch Patterns",,14476480,"",1
+"GEOLOGYCODESECONDARY","Lith1","MAQSI","Silica altered quartz amphibolite",55,71,"","8000G145A321","Interdex Hatch Patterns",,13295001,"",1
+"GEOLOGYCODESECONDARY","Lith1","MAS","Actinolite schist",55,72,"","FF8000G145A3B1","Interdex Hatch Patterns",,13483143,"",1
+"GEOLOGYCODESECONDARY","Lith1","MBA","Basalt-unclassified",45,73,"","FF0000G0A5A381","Interdex Hatch Patterns",,16764831,"",1
+"GEOLOGYCODESECONDARY","Lith1","MBX","Mafic breccia",56,74,"","8080G145A4E1","Interdex Hatch Patterns",,16761343,"",1
+"GEOLOGYCODESECONDARY","Lith1","MCAB","Calc-alkaline basalt",45,75,"","400080G145A4B1","Interdex Hatch Patterns",,13303807,"",1
+"GEOLOGYCODESECONDARY","Lith1","MCS","Chlorite schist-sheared basalt",45,76,"","C08000G145A361","Interdex Hatch Patterns",,12303359,"",1
+"GEOLOGYCODESECONDARY","Lith1","MDI","Diorite",25,77,"","808000G145A431","Interdex Hatch Patterns",,12902911,"",1
+"GEOLOGYCODESECONDARY","Lith1","MDO","Dolerite",25,78,"","400080G145A561","Interdex Hatch Patterns",,15720158,"",1
+"GEOLOGYCODESECONDARY","Lith1","MG","Gabbroid-unclassified",45,79,"","8DAE62G145A4F1","Interdex Hatch Patterns",,14994379,"",1
+"GEOLOGYCODESECONDARY","Lith1","MGA","Gabbro",45,80,"","800000G1E5A481","Interdex Hatch Patterns",,16773847,"",1
+"GEOLOGYCODESECONDARY","Lith1","MGB","Metagrabbro",56,81,"","400080G1E5A481","Interdex Hatch Patterns",,13565902,"",1
+"GEOLOGYCODESECONDARY","Lith1","MGH","Hornblende gabbro",56,82,"","FF0000G1E5A481","Interdex Hatch Patterns",,12582911,"",1
+"GEOLOGYCODESECONDARY","Lith1","MGL","Layered complex",15,83,"","800080G1E5A4F1","Interdex Hatch Patterns",,13295001,"",1
+"GEOLOGYCODESECONDARY","Lith1","MGQ","Quartz gabbro",47,84,"","8080FFG1E5A481","Interdex Hatch Patterns",,14476480,"",1
+"GEOLOGYCODESECONDARY","Lith1","MGY","Granophyre",57,85,"","400080G145A4F1","Interdex Hatch Patterns",,13366270,"",1
+"GEOLOGYCODESECONDARY","Lith1","MHPS","Hornblende plagioclase schist",57,86,"","800080G145A3B1","Interdex Hatch Patterns",,10932733,"",1
+"GEOLOGYCODESECONDARY","Lith1","MKB","High magnesian basalt",57,87,"","800000G0A5A381","Interdex Hatch Patterns",,13540863,"",1
+"GEOLOGYCODESECONDARY","Lith1","MKM","Alkaline intrusive",27,88,"","FF0000G0A5A381","Interdex Hatch Patterns",,8421631,"",1
+"GEOLOGYCODESECONDARY","Lith1","MKP","Picrite",20,89,"","80G0A5A4B1","Interdex Hatch Patterns",,13816575,"",1
+"GEOLOGYCODESECONDARY","Lith1","MKTC","Tremolite/actinolite chlorite shcist",58,90,"","80FF80G145A3C1","Interdex Hatch Patterns",,14286847,"",1
+"GEOLOGYCODESECONDARY","Lith1","MM","Metamorphosed mafic-unclassified",58,91,"","80G145A401","Interdex Hatch Patterns",,12582911,"",1
+"GEOLOGYCODESECONDARY","Lith1","MMV","Metabasalt",58,92,"","8080G145A551","Interdex Hatch Patterns",,12572159,"",1
+"GEOLOGYCODESECONDARY","Lith1","MN","Norite",48,93,"","8000G145A391","Interdex Hatch Patterns",,13565926,"",1
+"GEOLOGYCODESECONDARY","Lith1","MPX","Metapyroxenite",48,94,"","800080G145A391","Interdex Hatch Patterns",,13295001,"",1
+"GEOLOGYCODESECONDARY","Lith1","MT","Troctolite",48,95,"","800000G145A391","Interdex Hatch Patterns",,12615808,"",1
+"GEOLOGYCODESECONDARY","Lith1","MTAF","Mafic tuff-ash fall",28,96,"","808000G0A5A501","Interdex Hatch Patterns",,14862279,"",1
+"GEOLOGYCODESECONDARY","Lith1","MTB","Theoliitic basalt",28,97,"","80G0A5A481","Interdex Hatch Patterns",,14465208,"",1
+"GEOLOGYCODESECONDARY","Lith1","MV","Mafic volcanics-unclassified",28,98,"","800000G0A5A481","Interdex Hatch Patterns",,14474477,"",1
+"GEOLOGYCODESECONDARY","Lith1","NSR","No Sample Received",0,100,"","0G145A2A1","Interdex Hatch Patterns",,4194368,"",1
+"GEOLOGYCODESECONDARY","Lith1","PD","Proterozoic dyke",29,101,"","8080G145A341","Interdex Hatch Patterns",,9737417,"",1
+"GEOLOGYCODESECONDARY","Lith1","PEG","Pegmaite",29,102,"","8080G0A5A341","Interdex Hatch Patterns",,11927402,"",1
+"GEOLOGYCODESECONDARY","Lith1","PF","Feldspar porphyry",29,103,"","800080G145A391","Interdex Hatch Patterns",,16770815,"",1
+"GEOLOGYCODESECONDARY","Lith1","PHP","Hornblende - plagioclase porphyry",29,104,"","8080FFG145A391","Interdex Hatch Patterns",,14474993,"",1
+"GEOLOGYCODESECONDARY","Lith1","PI","Felsic intrusive - unclassified",29,105,"","0G145A391","Interdex Hatch Patterns",,10922973,"",1
+"GEOLOGYCODESECONDARY","Lith1","PIA","Andesite porphyry",29,106,"","404080G145A391","Interdex Hatch Patterns",,11646174,"",1
+"GEOLOGYCODESECONDARY","Lith1","PQ","Quartz porthyry",29,107,"","FFFFG145A391","Interdex Hatch Patterns",,16769505,"",1
+"GEOLOGYCODESECONDARY","Lith1","PQF","Quartz feldspar porphyry",29,108,"","800000G145A391","Interdex Hatch Patterns",,16754856,"",1
+"GEOLOGYCODESECONDARY","Lith1","PRY","Porphyry",29,109,"","40FF00G145A391","Interdex Hatch Patterns",,16777151,"",1
+"GEOLOGYCODESECONDARY","Lith1","RUBB","Rubble",17,110,"","8080G145A561","Interdex Hatch Patterns",,13421568,"",1
+"GEOLOGYCODESECONDARY","Lith1","SAMP","Para amphibolite",55,111,"","808080G145A341","Interdex Hatch Patterns",,13483143,"",1
+"GEOLOGYCODESECONDARY","Lith1","SAN","Arenite, sandstone",18,112,"","800080G145A2E1","Interdex Hatch Patterns",,13494014,"",1
+"GEOLOGYCODESECONDARY","Lith1","SAND","Sand (0.02-2mm)-transported",18,113,"","80G145A2E1","Interdex Hatch Patterns",,10932733,"",1
+"GEOLOGYCODESECONDARY","Lith1","SBFA","Biotite feldspar actinolite",58,114,"","8000G145A321","Interdex Hatch Patterns",,10079229,"",1
+"GEOLOGYCODESECONDARY","Lith1","SBS","Black shale",18,115,"","0G145A5A1","Interdex Hatch Patterns",,0,"",1
+"GEOLOGYCODESECONDARY","Lith1","SBX","Sedimentary - breccia",59,116,"","80G145A3C1","Interdex Hatch Patterns",,15134463,"",1
+"GEOLOGYCODESECONDARY","Lith1","SCAL","Calcareous sediment",19,117,"","80FFG145A5C1","Interdex Hatch Patterns",,12703487,"",1
+"GEOLOGYCODESECONDARY","Lith1","SCCS","Calc-silicate",19,118,"","400080G145A4A1","Interdex Hatch Patterns",,9220607,"",1
+"GEOLOGYCODESECONDARY","Lith1","SCL","Chert",19,119,"","80G0A5A4A1","Interdex Hatch Patterns",,6592255,"",1
+"GEOLOGYCODESECONDARY","Lith1","SCM","Marble-meta calc-sediment",19,120,"","808080G145A551","Interdex Hatch Patterns",,14079723,"",1
+"GEOLOGYCODESECONDARY","Lith1","SCO","Conglomerate - oligomictic",19,121,"","FF0000G145A561","Interdex Hatch Patterns",,11184853,"",1
+"GEOLOGYCODESECONDARY","Lith1","SCP","Conglomerate - polymictic",19,122,"","80G145A561","Interdex Hatch Patterns",,7829435,"",1
+"GEOLOGYCODESECONDARY","Lith1","SCSG","Aluminosillicate granulite",19,123,"","400080G145A531","Interdex Hatch Patterns",,6381999,"",1
+"GEOLOGYCODESECONDARY","Lith1","SDOL","Dolomite",12,124,"","8000G145A331","Interdex Hatch Patterns",,4671375,"",1
+"GEOLOGYCODESECONDARY","Lith1","SG","Argillite",23,125,"","800080G145A321","Interdex Hatch Patterns",,16767411,"",1
+"GEOLOGYCODESECONDARY","Lith1","SIF","Banded iron formation",10,126,"","400080G145A3E1","Interdex Hatch Patterns",,16752706,"",1
+"GEOLOGYCODESECONDARY","Lith1","SIFC","Carbonate iron formation",10,128,"","808000G145A3E1","Interdex Hatch Patterns",,16745997,"",1
+"GEOLOGYCODESECONDARY","Lith1","SIFS","Sulphide iron formation",10,129,"","40FF00G145A3E1","Interdex Hatch Patterns",,10342143,"",1
+"GEOLOGYCODESECONDARY","Lith1","SIFX","Oxide iron formation",10,130,"","800000G145A3E1","Interdex Hatch Patterns",,3381759,"",1
+"GEOLOGYCODESECONDARY","Lith1","SIL","Silcrete",12,131,"","408000G0A5A501","Interdex Hatch Patterns",,25284,"",1
+"GEOLOGYCODESECONDARY","Lith1","SILT","Silt (0.002-0.02mm)-transported",13,132,"","80G145A5D1","Interdex Hatch Patterns",,20381,"",1
+"GEOLOGYCODESECONDARY","Lith1","SK","Arkose",16,133,"","800080G145A561","Interdex Hatch Patterns",,16777105,"",1
+"GEOLOGYCODESECONDARY","Lith1","SLAK","Salt lake sediments",10,134,"","800000G145A291","Interdex Hatch Patterns",,16777045,"",1
+"GEOLOGYCODESECONDARY","Lith1","SLIM","Limestone",10,135,"","80G145A281","Interdex Hatch Patterns",,16382208,"",1
+"GEOLOGYCODESECONDARY","Lith1","SMAR","Marl",10,136,"","808000G145A4E1","Interdex Hatch Patterns",,14276864,"",1
+"GEOLOGYCODESECONDARY","Lith1","SMAS","Aluminosillicate schist",58,137,"","80G145A4D1","Interdex Hatch Patterns",,11776768,"",1
+"GEOLOGYCODESECONDARY","Lith1","SOIL","Residual soil",19,138,"","FF8080G145A4B1","Interdex Hatch Patterns",,10789888,"",1
+"GEOLOGYCODESECONDARY","Lith1","SP","Pelitic sediment",19,139,"","C08080G145A5D1","Interdex Hatch Patterns",,16772351,"",1
+"GEOLOGYCODESECONDARY","Lith1","SPGN","Paragneiss",0,140,"","808000G145A461","Interdex Hatch Patterns",,16761343,"",1
+"GEOLOGYCODESECONDARY","Lith1","SQ","Quartzite",27,141,"","808080G145A5D1","Interdex Hatch Patterns",,16750079,"",1
+"GEOLOGYCODESECONDARY","Lith1","SQB","Quartz biotite schist",59,142,"","FFG145A511","Interdex Hatch Patterns",,16735231,"",1
+"GEOLOGYCODESECONDARY","Lith1","SQBA","Quartz biotite actinolite",59,143,"","400080G145A431","Interdex Hatch Patterns",,16722943,"",1
+"GEOLOGYCODESECONDARY","Lith1","SQBF","Quartz biotite feldspar schist",59,144,"","8000G145A511","Interdex Hatch Patterns",,14221529,"",1
+"GEOLOGYCODESECONDARY","Lith1","SQBM","Quatrz muscovite biotite schist",59,145,"","800000G145A511","Interdex Hatch Patterns",,10289309,"",1
+"GEOLOGYCODESECONDARY","Lith1","SQFS","Quartz feldspar sericite shcist",59,146,"","800080G145A511","Interdex Hatch Patterns",,4605510,"",1
+"GEOLOGYCODESECONDARY","Lith1","SQMS","Quartz muscovite schist",59,147,"","8080FFG145A511","Interdex Hatch Patterns",,13366270,"",1
+"GEOLOGYCODESECONDARY","Lith1","SSCH","Chlorite schist (chloiritc meta)",59,148,"","0G145A511","Interdex Hatch Patterns",,10932733,"",1
+"GEOLOGYCODESECONDARY","Lith1","SSH","Shale",18,149,"","0G0A5A471","Interdex Hatch Patterns",,4480232,"",1
+"GEOLOGYCODESECONDARY","Lith1","SSIC","Sinter - calcareous",18,150,"","8080G0A5A471","Interdex Hatch Patterns",,10198741,"",1
+"GEOLOGYCODESECONDARY","Lith1","SSIS","Sinter - silicous",18,151,"","80G145A4B1","Interdex Hatch Patterns",,7108296,"",1
+"GEOLOGYCODESECONDARY","Lith1","SSL","Siltstone",18,152,"","FF0000G055A471","Interdex Hatch Patterns",,13615579,"",1
+"GEOLOGYCODESECONDARY","Lith1","SSM","Metasediment-unclassified",18,153,"","400080G145A401","Interdex Hatch Patterns",,13876152,"",1
+"GEOLOGYCODESECONDARY","Lith1","STIL","Tillite",18,154,"","0G145A4F1","Interdex Hatch Patterns",,13483143,"",1
+"GEOLOGYCODESECONDARY","Lith1","STT","Turbidite",18,155,"","0G145A361","Interdex Hatch Patterns",,16440542,"",1
+"GEOLOGYCODESECONDARY","Lith1","SW","Greywacke or wacke",18,156,"","808080G145A3A1","Interdex Hatch Patterns",,12568969,"",1
+"GEOLOGYCODESECONDARY","Lith1","TFSH","Felsic schist",56,157,"","808080G145A511","Interdex Hatch Patterns",,14476480,"",1
+"GEOLOGYCODESECONDARY","Lith1","TMAM","Amphibolite",56,158,"","8080G145A411","Interdex Hatch Patterns",,16710861,"",1
+"GEOLOGYCODESECONDARY","Lith1","TMBR","Breccia",56,159,"","808000G145A3C1","Interdex Hatch Patterns",,7846778,"",1
+"GEOLOGYCODESECONDARY","Lith1","TMCS","Calc silicate",56,160,"","400080G145A321","Interdex Hatch Patterns",,13295001,"",1
+"GEOLOGYCODESECONDARY","Lith1","TMGN","Gneiss",56,161,"","800000G145A481","Interdex Hatch Patterns",,13168576,"",1
+"GEOLOGYCODESECONDARY","Lith1","TMGO","Granofels-coarse grained",56,162,"","0G145A381","Interdex Hatch Patterns",,10198741,"",1
+"GEOLOGYCODESECONDARY","Lith1","TMGR","Granulite",56,163,"","808000G0A5A481","Interdex Hatch Patterns",,13422058,"",1
+"GEOLOGYCODESECONDARY","Lith1","TMHO","Hornfels-fine grained",56,164,"","FFG085A481","Interdex Hatch Patterns",,15395831,"",1
+"GEOLOGYCODESECONDARY","Lith1","TMMY","Mylonite",60,165,"","80G145A4F1","Interdex Hatch Patterns",,14155775,"",1
+"GEOLOGYCODESECONDARY","Lith1","TMPH","Phyllite",60,166,"","0G145A4E1","Interdex Hatch Patterns",,11468799,"",1
+"GEOLOGYCODESECONDARY","Lith1","TMSH","Mafic schist",57,167,"","0G145A511","Interdex Hatch Patterns",,7471103,"",1
+"GEOLOGYCODESECONDARY","Lith1","TMSK","Skarn",12,168,"","FF0000G145A261","Interdex Hatch Patterns",,32896,"",1
+"GEOLOGYCODESECONDARY","Lith1","TMSL","Slate",12,169,"","8080G145A471","Interdex Hatch Patterns",,7846778,"",1
+"GEOLOGYCODESECONDARY","Lith1","U","Ultramafic-unclassified",60,170,"","0G145A501","Interdex Hatch Patterns",,12380638,"",1
+"GEOLOGYCODESECONDARY","Lith1","UAC","Amphibole chlorite",56,171,"","808000G145A391","Interdex Hatch Patterns",,10800506,"",1
+"GEOLOGYCODESECONDARY","Lith1","UACT","Amphibole talc chlorite",56,172,"","8080G145A391","Interdex Hatch Patterns",,9689307,"",1
+"GEOLOGYCODESECONDARY","Lith1","UCAR","Carbonatite",12,173,"","8080G145A411","Interdex Hatch Patterns",,9622236,"",1
+"GEOLOGYCODESECONDARY","Lith1","UCX","Clinopyroxenite",56,174,"","400080G145A381","Interdex Hatch Patterns",,9877210,"",1
+"GEOLOGYCODESECONDARY","Lith1","UDO","Olivine peridotite (70-90%olivine)",56,175,"","8080G145A481","Interdex Hatch Patterns",,11065490,"",1
+"GEOLOGYCODESECONDARY","Lith1","UDU","Dunite (>90% olivine)",56,176,"","808000G145A481","Interdex Hatch Patterns",,10804633,"",1
+"GEOLOGYCODESECONDARY","Lith1","UHZ","Harzburgite",56,177,"","800000G145A481","Interdex Hatch Patterns",,12243885,"",1
+"GEOLOGYCODESECONDARY","Lith1","UKB","Basalt komatiite",56,178,"","0G0A5A381","Interdex Hatch Patterns",,15254971,"",1
+"GEOLOGYCODESECONDARY","Lith1","UKV","Peridotitic komatiite",56,179,"","8080G0A5A381","Interdex Hatch Patterns",,15783342,"",1
+"GEOLOGYCODESECONDARY","Lith1","ULAM","lamprophyre",56,180,"","800080G195A381","Interdex Hatch Patterns",,15982287,"",1
+"GEOLOGYCODESECONDARY","Lith1","UOX","Orthopyroxenite",56,181,"","FF00FFG145A4A1","Interdex Hatch Patterns",,15986072,"",1
+"GEOLOGYCODESECONDARY","Lith1","UPD","Peridotite (40-70% olivine)",56,182,"","8080G145A4A1","Interdex Hatch Patterns",,16444397,"",1
+"GEOLOGYCODESECONDARY","Lith1","UPH","Hornblende peridotite",56,183,"","808080G145A4A1","Interdex Hatch Patterns",,16638455,"",1
+"GEOLOGYCODESECONDARY","Lith1","UPX","Pyroxenite (<40% olivine)",56,184,"","FF0000G145A371","Interdex Hatch Patterns",,16442110,"",1
+"GEOLOGYCODESECONDARY","Lith1","USD","Serpentinized dunite",56,185,"","8080G145A371","Interdex Hatch Patterns",,16633596,"",1
+"GEOLOGYCODESECONDARY","Lith1","USE","Unclassicied serpentinite",56,186,"","800000G145A371","Interdex Hatch Patterns",,16305144,"",1
+"GEOLOGYCODESECONDARY","Lith1","UTC","Talc chlorite",56,187,"","8080FFG145A501","Interdex Hatch Patterns",,15524094,"",1
+"GEOLOGYCODESECONDARY","Lith1","UTCB","Undifferentiated talc carbonate",56,188,"","808080G145A371","Interdex Hatch Patterns",,14735869,"",1
+"GEOLOGYCODESECONDARY","Lith1","UTM","Talc magnesite",56,189,"","808000G145A3D1","Interdex Hatch Patterns",,13481460,"",1
+"GEOLOGYCODESECONDARY","Lith1","UTMC","Talc magnesite chlorite",56,190,"","800080G145A3B1","Interdex Hatch Patterns",,12563701,"",1
+"GEOLOGYCODESECONDARY","Lith1","UV","Ultramafic volcanics-unclassified",56,191,"","800080G145A4B1","Interdex Hatch Patterns",,13285112,"",1
+"GEOLOGYCODESECONDARY","Lith1","UW","Websterite",58,192,"","FFG145A4E1","Interdex Hatch Patterns",,12359908,"",1
+"GEOLOGYCODESECONDARY","Lith1","UWH","Wehrilite",,193,"","800000G145A4E1","Interdex Hatch Patterns",,13727707,"",1
+"GEOLOGYCODESECONDARY","Lith1","FLT","Fault",,21,"","8080G145A211","Interdex Hatch Patterns",,15987699,"",1
+"GEOLOGYCODESECONDARY","Mineral1","AB","Albite",,0,"","FBFAEAG145A211","Interdex Hatch Patterns",,16383702,"",1
+"GEOLOGYCODESECONDARY","Mineral1","AC","Actinolite",,1,"","F5E29EG145A211","Interdex Hatch Patterns",,16507308,"",1
+"GEOLOGYCODESECONDARY","Mineral1","AD","Andulusite",,2,"","C5F07BG145A211","Interdex Hatch Patterns",,13168532,"",1
+"GEOLOGYCODESECONDARY","Mineral1","AF","Alkali feldspar",,3,"","B6EA6FG145A211","Interdex Hatch Patterns",,10156188,"",1
+"GEOLOGYCODESECONDARY","Mineral1","AG","Silver",,4,"","73BB22G145A211","Interdex Hatch Patterns",,7398246,"",1
+"GEOLOGYCODESECONDARY","Mineral1","AH","Anhydrite",,5,"","67A837G145A211","Interdex Hatch Patterns",,8047465,"",1
+"GEOLOGYCODESECONDARY","Mineral1","AK","Ankerite",,6,"","60A034G145A211","Interdex Hatch Patterns",,5809508,"",1
+"GEOLOGYCODESECONDARY","Mineral1","AL","Aluminosilicate",,7,"","366C00G145A211","Interdex Hatch Patterns",,5934934,"",1
+"GEOLOGYCODESECONDARY","Mineral1","AM","Amphibole",,8,"","E6C8D5G145A211","Interdex Hatch Patterns",,16636878,"",1
+"GEOLOGYCODESECONDARY","Mineral1","AN","Anthrophyllite",,9,"","D8A5B1G145A211","Interdex Hatch Patterns",,16367505,"",1
+"GEOLOGYCODESECONDARY","Mineral1","AP","Apatite",,10,"","BC709DG145A211","Interdex Hatch Patterns",,15373452,"",1
+"GEOLOGYCODESECONDARY","Mineral1","AS","Arsenopyrite",,11,"","E2D1ADG145A211","Interdex Hatch Patterns",,13679517,"",1
+"GEOLOGYCODESECONDARY","Mineral1","AT","Alunite",,12,"","C59B69G145A211","Interdex Hatch Patterns",,12297591,"",1
+"GEOLOGYCODESECONDARY","Mineral1","AU","Gold",,13,"","BE9756G145A211","Interdex Hatch Patterns",,11572591,"",1
+"GEOLOGYCODESECONDARY","Mineral1","AZ","Azurite",,14,"","EACCF7G145A211","Interdex Hatch Patterns",,16633583,"",1
+"GEOLOGYCODESECONDARY","Mineral1","BA","Barite",,15,"","E0A9DFG145A211","Interdex Hatch Patterns",,16565746,"",1
+"GEOLOGYCODESECONDARY","Mineral1","BE","Beryl",,16,"","FF2FFFG145A211","Interdex Hatch Patterns",,16027324,"",1
+"GEOLOGYCODESECONDARY","Mineral1","BI","Biotite",,17,"","AA55BFG145A211","Interdex Hatch Patterns",,15299252,"",1
+"GEOLOGYCODESECONDARY","Mineral1","BL","Bleached",,18,"","C648C6G145A211","Interdex Hatch Patterns",,13000332,"",1
+"GEOLOGYCODESECONDARY","Mineral1","BN","Bornite",,19,"","BD5991G145A211","Interdex Hatch Patterns",,12029586,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CA","Calcite",,20,"","DDDDFFG145A211","Interdex Hatch Patterns",,16773885,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CB","Carbonate",,21,"","B3B3FFG145A211","Interdex Hatch Patterns",,16635378,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CC","Chalcocite",,22,"","8080FFG145A211","Interdex Hatch Patterns",,16363249,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CD","Cordierite",,23,"","5E5EFFG145A211","Interdex Hatch Patterns",,15969242,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CE","Cerrusite",,24,"","2C56E9G145A211","Interdex Hatch Patterns",,15373269,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CH","Chlorite",,25,"","CCDAEAG145A211","Interdex Hatch Patterns",,14848700,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CL","Calcareous",,26,"","BEBEDEG145A211","Interdex Hatch Patterns",,12871848,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CM","Cummingtonite",,27,"","8989C5G145A211","Interdex Hatch Patterns",,10906271,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CN","Carnotite",,28,"","5454A9G145A211","Interdex Hatch Patterns",,15269886,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CO","Corundum",,29,"","404080G145A211","Interdex Hatch Patterns",,12513276,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CP","Chalcopyrite",,30,"","CDE2EDG145A211","Interdex Hatch Patterns",,11068663,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CR","Chromite",,31,"","96BFD6G145A211","Interdex Hatch Patterns",,10675440,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CS","Cassiterite",,32,"","5CA3BAG145A211","Interdex Hatch Patterns",,9556204,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CT","Chloritoid",,33,"","4B839AG145A211","Interdex Hatch Patterns",,10080488,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CU","Copper",,34,"","7BA3CEG145A211","Interdex Hatch Patterns",,8566482,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CV","Covellite",,35,"","4F91B5G145A211","Interdex Hatch Patterns",,7444417,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CX","Clinopyroxene",,36,"","437996G145A211","Interdex Hatch Patterns",,5863349,"",1
+"GEOLOGYCODESECONDARY","Mineral1","DO","Dolomite",,38,"","6CCFE8G145A211","Interdex Hatch Patterns",,6847918,"",1
+"GEOLOGYCODESECONDARY","Mineral1","DP","Diopside",,39,"","2DA0BDG145A211","Interdex Hatch Patterns",,6520472,"",1
+"GEOLOGYCODESECONDARY","Mineral1","EP","Epidote",,40,"","EFCBF5G145A211","Interdex Hatch Patterns",,15918847,"",1
+"GEOLOGYCODESECONDARY","Mineral1","FD","Feldspar",,41,"","D2A6FFG145A211","Interdex Hatch Patterns",,14862079,"",1
+"GEOLOGYCODESECONDARY","Mineral1","FE","Ferruginous/iron",,42,"","AE5EFFG145A211","Interdex Hatch Patterns",,13871359,"",1
+"GEOLOGYCODESECONDARY","Mineral1","FL","Fluorite",,43,"","8F20FFG145A211","Interdex Hatch Patterns",,12351999,"",1
+"GEOLOGYCODESECONDARY","Mineral1","FP","Feldspathoids",,44,"","7C00F9G145A211","Interdex Hatch Patterns",,10832639,"",1
+"GEOLOGYCODESECONDARY","Mineral1","FU","Fuchsite",,45,"","6500CAG145A211","Interdex Hatch Patterns",,9709823,"",1
+"GEOLOGYCODESECONDARY","Mineral1","GA","Gahnite",,46,"","DDFFBBG145A211","Interdex Hatch Patterns",,7995636,"",1
+"GEOLOGYCODESECONDARY","Mineral1","GI","Gibbsite",,47,"","B1FF97G145A211","Interdex Hatch Patterns",,5832883,"",1
+"GEOLOGYCODESECONDARY","Mineral1","GL","Glauconite",,48,"","6CFF3CG145A211","Interdex Hatch Patterns",,5505192,"",1
+"GEOLOGYCODESECONDARY","Mineral1","GN","Galena",,49,"","57C60DG145A211","Interdex Hatch Patterns",,16777209,"",1
+"GEOLOGYCODESECONDARY","Mineral1","GO","Goethite",,50,"","CCDDFFG145A211","Interdex Hatch Patterns",,16777170,"",1
+"GEOLOGYCODESECONDARY","Mineral1","GR","Graphite",,51,"","82AAFFG145A211","Interdex Hatch Patterns",,16777107,"",1
+"GEOLOGYCODESECONDARY","Mineral1","GT","Garnet",,52,"","4080FFG145A211","Interdex Hatch Patterns",,16777079,"",1
+"GEOLOGYCODESECONDARY","Mineral1","GU","Gruneirite",,53,"","4FF2G145A211","Interdex Hatch Patterns",,16776994,"",1
+"GEOLOGYCODESECONDARY","Mineral1","GY","Gypsum",,54,"","3CB7G145A211","Interdex Hatch Patterns",,13026816,"",1
+"GEOLOGYCODESECONDARY","Mineral1","HA","Haematized",,55,"","CCFFFFG145A211","Interdex Hatch Patterns",,12303104,"",1
+"GEOLOGYCODESECONDARY","Mineral1","HB","Hornblende",,56,"","75FFFFG145A211","Interdex Hatch Patterns",,11776768,"",1
+"GEOLOGYCODESECONDARY","Mineral1","HE","Haematite",,57,"","F2F2G145A211","Interdex Hatch Patterns",,7434496,"",1
+"GEOLOGYCODESECONDARY","Mineral1","IC","Iron clay",,58,"","BFBFG145A211","Interdex Hatch Patterns",,15265791,"",1
+"GEOLOGYCODESECONDARY","Mineral1","IL","Illite",,59,"","6A6AG145A211","Interdex Hatch Patterns",,12046079,"",1
+"GEOLOGYCODESECONDARY","Mineral1","IM","Limenite",,60,"","EFE2D3G145A211","Interdex Hatch Patterns",,9089279,"",1
+"GEOLOGYCODESECONDARY","Mineral1","IR","Ironstone",,61,"","DEC098G145A211","Interdex Hatch Patterns",,7709439,"",1
+"GEOLOGYCODESECONDARY","Mineral1","JA","Jarosite",,62,"","BB895BG145A211","Interdex Hatch Patterns",,7709439,"",1
+"GEOLOGYCODESECONDARY","Mineral1","KA","Kaolin",,63,"","AA863CG145A211","Interdex Hatch Patterns",,5606655,"",1
+"GEOLOGYCODESECONDARY","Mineral1","KF","K-feldspar",,64,"","936355G145A211","Interdex Hatch Patterns",,5869567,"",1
+"GEOLOGYCODESECONDARY","Mineral1","KY","Kyanite",,66,"","EBD7FFG145A211","Interdex Hatch Patterns",,15132402,"",1
+"GEOLOGYCODESECONDARY","Mineral1","LE","Lepidolite",,67,"","CB97FFG145A211","Interdex Hatch Patterns",,13619175,"",1
+"GEOLOGYCODESECONDARY","Mineral1","LM","Limonite",,68,"","9E3EFFG145A211","Interdex Hatch Patterns",,10724305,"",1
+"GEOLOGYCODESECONDARY","Mineral1","LX","Leucoxene",,69,"","6100C1G145A211","Interdex Hatch Patterns",,8421567,"",1
+"GEOLOGYCODESECONDARY","Mineral1","MA","Marcite",,70,"","400080G145A211","Interdex Hatch Patterns",,8421567,"",1
+"GEOLOGYCODESECONDARY","Mineral1","MC","Malachite",,71,"","E6CCFFG145A211","Interdex Hatch Patterns",,6513585,"",1
+"GEOLOGYCODESECONDARY","Mineral1","MI","Mica",,72,"","BC79FFG145A211","Interdex Hatch Patterns",,4868757,"",1
+"GEOLOGYCODESECONDARY","Mineral1","ML","Millerite",,73,"","952BFFG145A211","Interdex Hatch Patterns",,15269887,"",1
+"GEOLOGYCODESECONDARY","Mineral1","MM","Montmorillonite",,74,"","FFFFDFG145A211","Interdex Hatch Patterns",,12910591,"",1
+"GEOLOGYCODESECONDARY","Mineral1","MN","Manganese oxides",,75,"","FFFF9FG145A211","Interdex Hatch Patterns",,9961471,"",1
+"GEOLOGYCODESECONDARY","Mineral1","MO","Molybdenite",,76,"","FFFF15G145A211","Interdex Hatch Patterns",,1572863,"",1
+"GEOLOGYCODESECONDARY","Mineral1","MS","Magnesite",,77,"","C6C600G145A211","Interdex Hatch Patterns",,55769,"",1
+"GEOLOGYCODESECONDARY","Mineral1","MT","Magnetite",,78,"","848400G145A211","Interdex Hatch Patterns",,16767487,"",1
+"GEOLOGYCODESECONDARY","Mineral1","MV","Muscovite",,79,"","848400G145A211","Interdex Hatch Patterns",,16754431,"",1
+"GEOLOGYCODESECONDARY","Mineral1","MZ","Monazite",,80,"","DDEEFFG145A211","Interdex Hatch Patterns",,16742399,"",1
+"GEOLOGYCODESECONDARY","Mineral1","NSR","No Sample Received",,81,"","93C9FFG145A211","Interdex Hatch Patterns",,4194368,"",1
+"GEOLOGYCODESECONDARY","Mineral1","OL","Olivine",,82,"","42A0FFG145A211","Interdex Hatch Patterns",,16719103,"",1
+"GEOLOGYCODESECONDARY","Mineral1","OR","Orthoclase",,83,"","76ECG145A211","Interdex Hatch Patterns",,13500622,"",1
+"GEOLOGYCODESECONDARY","Mineral1","OX","Orthopyroxene",,84,"","5EBBG145A211","Interdex Hatch Patterns",,9896087,"",1
+"GEOLOGYCODESECONDARY","Mineral1","PE","Prehnite",,85,"","4080G145A211","Interdex Hatch Patterns",,16706528,"",1
+"GEOLOGYCODESECONDARY","Mineral1","PH","Phlogophite",,86,"","C0CFC5G145A211","Interdex Hatch Patterns",,16766894,"",1
+"GEOLOGYCODESECONDARY","Mineral1","PL","Plagioclase",,87,"","95AD92G145A211","Interdex Hatch Patterns",,15920799,"",1
+"GEOLOGYCODESECONDARY","Mineral1","PN","Pentlandite",,88,"","74956AG145A211","Interdex Hatch Patterns",,16767628,"",1
+"GEOLOGYCODESECONDARY","Mineral1","PO","Pyrrhotite",,89,"","B4CFBEG145A211","Interdex Hatch Patterns",,15128448,"",1
+"GEOLOGYCODESECONDARY","Mineral1","PR","Pyrophyllite",,90,"","759F83G145A211","Interdex Hatch Patterns",,14143078,"",1
+"GEOLOGYCODESECONDARY","Mineral1","PX","Pyroxene",,91,"","5CA364G145A211","Interdex Hatch Patterns",,12569972,"",1
+"GEOLOGYCODESECONDARY","Mineral1","PY","Pyrite",,92,"","B0BBCCG145A211","Interdex Hatch Patterns",,10536552,"",1
+"GEOLOGYCODESECONDARY","Mineral1","QC","Quartz-carbonate",,93,"","7A93A9G145A211","Interdex Hatch Patterns",,12298865,"",1
+"GEOLOGYCODESECONDARY","Mineral1","QZ","Quartz",,94,"","607195G145A211","Interdex Hatch Patterns",,16380671,"",1
+"GEOLOGYCODESECONDARY","Mineral1","RD","Rhodochrosite",,95,"","4E579CG145A211","Interdex Hatch Patterns",,16701694,"",1
+"GEOLOGYCODESECONDARY","Mineral1","SB","Stibnite",,97,"","AE9593G145A211","Interdex Hatch Patterns",,14465535,"",1
+"GEOLOGYCODESECONDARY","Mineral1","SC","Scheelite",,98,"","9E6D5FG145A211","Interdex Hatch Patterns",,14680047,"",1
+"GEOLOGYCODESECONDARY","Mineral1","SD","Siderite",,99,"","BAABCDG145A211","Interdex Hatch Patterns",,12582784,"",1
+"GEOLOGYCODESECONDARY","Mineral1","SE","Sericite",,100,"","6D599BG145A211","Interdex Hatch Patterns",,11075409,"",1
+"GEOLOGYCODESECONDARY","Mineral1","SF","Sodic feldspars",,101,"","C9BFD2G145A211","Interdex Hatch Patterns",,7925760,"",1
+"GEOLOGYCODESECONDARY","Mineral1","SH","Sphene",,102,"","D0C0DEG145A211","Interdex Hatch Patterns",,3260672,"",1
+"GEOLOGYCODESECONDARY","Mineral1","SI","Silica",,103,"","C5E4D2G145A211","Interdex Hatch Patterns",,16248558,"",1
+"GEOLOGYCODESECONDARY","Mineral1","SL","Sillimanite",,104,"","A7CDB3G145A211","Interdex Hatch Patterns",,15654365,"",1
+"GEOLOGYCODESECONDARY","Mineral1","SM","Smithsonite",,105,"","64AA80G145A211","Interdex Hatch Patterns",,14465208,"",1
+"GEOLOGYCODESECONDARY","Mineral1","SN","Stannite",,106,"","508758G145A211","Interdex Hatch Patterns",,14465208,"",1
+"GEOLOGYCODESECONDARY","Mineral1","SP","Sphalerite",,107,"","DCC0DAG145A211","Interdex Hatch Patterns",,13144465,"",1
+"GEOLOGYCODESECONDARY","Mineral1","SR","Serpentine",,108,"","CFA5C7G145A211","Interdex Hatch Patterns",,13540251,"",1
+"GEOLOGYCODESECONDARY","Mineral1","ST","Staurolite",,109,"","B56CADG145A211","Interdex Hatch Patterns",,13012108,"",1
+"GEOLOGYCODESECONDARY","Mineral1","SU","Saussurite",,110,"","8A577DG145A211","Interdex Hatch Patterns",,13408665,"",1
+"GEOLOGYCODESECONDARY","Mineral1","SX","Sulphide",,111,"","B9DBBFG145A211","Interdex Hatch Patterns",,15794145,"",1
+"GEOLOGYCODESECONDARY","Mineral1","TA","Talc",,112,"","99C796G145A211","Interdex Hatch Patterns",,15138764,"",1
+"GEOLOGYCODESECONDARY","Mineral1","TD","Tetrahedrite",,113,"","5AAB6FG145A211","Interdex Hatch Patterns",,13565853,"",1
+"GEOLOGYCODESECONDARY","Mineral1","TE","Telluride",,114,"","6C9D68G145A211","Interdex Hatch Patterns",,11599714,"",1
+"GEOLOGYCODESECONDARY","Mineral1","TM","Tourmaline",,115,"","C0DDDEG145A211","Interdex Hatch Patterns",,10878794,"",1
+"GEOLOGYCODESECONDARY","Mineral1","TT","Tremolite",,116,"","8DCACDG145A211","Interdex Hatch Patterns",,8847117,"",1
+"GEOLOGYCODESECONDARY","Mineral1","TZ","Topaz",,117,"","74B5B8G145A211","Interdex Hatch Patterns",,7133440,"",1
+"GEOLOGYCODESECONDARY","Mineral1","UR","Uraninite",,118,"","498F85G145A211","Interdex Hatch Patterns",,6208256,"",1
+"GEOLOGYCODESECONDARY","Mineral1","VL","Violarite",,119,"","468685G145A211","Interdex Hatch Patterns",,16771304,"",1
+"GEOLOGYCODESECONDARY","Mineral1","WF","Wolframite",,120,"","CCCEDDG145A211","Interdex Hatch Patterns",,16770222,"",1
+"GEOLOGYCODESECONDARY","Mineral1","WO","Wollastonite",,121,"","9BA8CEG145A211","Interdex Hatch Patterns",,16769183,"",1
+"GEOLOGYCODESECONDARY","Mineral1","ZO","Zoisite",,122,"","507396G145A211","Interdex Hatch Patterns",,16764262,"",1
+"GEOLOGYCODESECONDARY","Mineral1","ZR","Zircon",,123,"","4E70A7G145A211","Interdex Hatch Patterns",,16758044,"",1
+"GEOLOGYCODESECONDARY","Mineral1","ZW","Zinwaldite",,124,"","CBCD9CG145A211","Interdex Hatch Patterns",,16033024,"",1
+"GEOLOGYCODESECONDARY","Mineral1","KL","Clean",,65,"","","",,,"",1
+"GEOLOGYCODESECONDARY","Mineral1","RF","Rock flour",,96,"","D3C0BCG145A211","Interdex Hatch Patterns",,,"",1
+"GEOLOGYCODESECONDARY","Mineral1","CY","Clay",,37,"","89DDF5G145A211","Interdex Hatch Patterns",,,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","AG","Aggregates",,1,"","B3B3D9G145A561","Interdex Hatch Patterns",,12303291,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","BD","Bedded",,2,"","4080FFG145A231","Interdex Hatch Patterns",,11447982,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","BL","Blebs and aggregates",,3,"","0G145A441","Interdex Hatch Patterns",,14804169,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","BN","Banded",,4,"","408080G145A3D1","Interdex Hatch Patterns",,13360879,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","CL","Clastic",,5,"","400080G145A351","Interdex Hatch Patterns",,11589887,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","DS","Disseminated",,6,"","408000G145A3F1","Interdex Hatch Patterns",,4235263,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","FL","Flooding",,8,"","C6B1CDG145A211","Interdex Hatch Patterns",,25025,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","GO","Gossaneous",,9,"","FF8000G145A591","Interdex Hatch Patterns",,5263520,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","MA","Massive",,10,"","C08080G145A211","Interdex Hatch Patterns",,16773847,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","MX","Matrix sulphides",,11,"","808040G145A2F1","Interdex Hatch Patterns",,16769962,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","NSR","No Sample Received",,12,"","0G145A2A1","Interdex Hatch Patterns",,4194368,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","RM","Remobilised",,13,"","400080G145A3C1","Interdex Hatch Patterns",,16758042,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","SM","Semi-massive",,14,"","8000FFG145A451","Interdex Hatch Patterns",,13798912,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","ST","Stringer",,15,"","404080G145A2B1","Interdex Hatch Patterns",,10184960,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","VC","Concordant vein",,16,"","6DA07AG145A511","Interdex Hatch Patterns",,8410624,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","VN","Vein",,17,"","800000G145A511","Interdex Hatch Patterns",,14155735,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","VX","Crosscutting vein",,18,"","800080G145A241","Interdex Hatch Patterns",,38144,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","XT","Crystals",,19,"","408000G145A341","Interdex Hatch Patterns",,25600,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","ACI","Acicular",,0,"","BCD7A2G145A561","Interdex Hatch Patterns",,15395562,"",1
+"GEOLOGYCODESECONDARY","Mineral1_Style","FG","Fine grained",,7,"","46B4E8G145A2E1","Interdex Hatch Patterns",,886527,"",1
+"GEOLOGYCODESECONDARY","RockStrength","R0","Rock.  Extremely low.  Thumb nail scratches.",,1,"","","",16774625,16776673,"",1
+"GEOLOGYCODESECONDARY","RockStrength","R1","Rock.  Very low. Can be peeled with pckt knief.",,2,"","","",16507566,16705707,"",1
+"GEOLOGYCODESECONDARY","RockStrength","R2","Rock. Low. Peeled with pckt knief wth difficulty.",,3,"","","",12248969,15466191,"",1
+"GEOLOGYCODESECONDARY","RockStrength","R3","Rock. Medium.  Fractured with 1 hammer blow.",,4,"","","",7921795,10418574,"",1
+"GEOLOGYCODESECONDARY","RockStrength","R4","Rock. High.   Requires > 1 hammer blow.",,5,"","","",9088735,10872824,"",1
+"GEOLOGYCODESECONDARY","RockStrength","R5","Rock. Very high. Many blows to fracture.",,6,"","","",7043279,9686000,"",1
+"GEOLOGYCODESECONDARY","RockStrength","S0","Soil. Easily penetrated wth fist.",,7,"","","",16771834,16772346,"",1
+"GEOLOGYCODESECONDARY","RockStrength","S1","Soil. Easily penetrated wth thumb.",,8,"","","",16694496,16695520,"",1
+"GEOLOGYCODESECONDARY","RockStrength","S2","Soil. Penetrated cm with thumb - mod effort.",,9,"","","",15333524,15793604,"",1
+"GEOLOGYCODESECONDARY","RockStrength","S3","Soil. Readily endented with thumb.",,10,"","","",11072119,11466672,"",1
+"GEOLOGYCODESECONDARY","RockStrength","S4","Soil. Readily indented thumbnail",,11,"","","",12569595,7719135,"",1
+"GEOLOGYCODESECONDARY","RockStrength","S5","Soil. Indented wth difficulty by thumbnail.",,12,"","","",9937147,9938681,"",1
+"GEOLOGYCODESECONDARY","RockStrength","NSR","no sample",,13,"","","",0,4194368,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","FB","Fault breccia",,10,"","FF00FFG0A5A2F1","Interdex Hatch Patterns",16777215,16481252,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","VN","Vein",,36,"","C0C0C0G0A5A4B1","Interdex Hatch Patterns",,4812111,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","CV","Calcite vein",,5,"","D1E75AG145A211","Interdex Hatch Patterns",,16641968,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","SF","Slickensided fracture",,30,"","FFFF00G0A5A5B1","Interdex Hatch Patterns",,7767533,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","QV","Quartz Vein",,29,"","FF00FFG0A5A3E1","Interdex Hatch Patterns",,12371452,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","Q3","Type3 vein",,28,"","408080G145A581","Interdex Hatch Patterns",,14673661,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","FZ","Fault Zone",,16,"","FFG0A5A281","Interdex Hatch Patterns",,7650029,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","FS","Fault Shear",,14,"","FFG145A3F1","Interdex Hatch Patterns",,11396856,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","FG","Fault gouge - clay infill",,12,"","8CD7E1G145A211","Interdex Hatch Patterns",,15531263,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","BD","Bedding",,1,"","D1F991G0A5A231","Interdex Hatch Patterns",,13171639,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","BV","Carbonate base metal",,2,"","CAF26AG145A261","Interdex Hatch Patterns",,10736264,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","NSR","No sample received",,24,"","0G145A211","Interdex Hatch Patterns",,4194368,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","EV","Epidote vein",,9,"","D197E8G145A211","Interdex Hatch Patterns",,16698875,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","SV","Sulphide or Cp vein",,34,"","8000G145A341","Interdex Hatch Patterns",,7590524,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","Q1","Mineralised veinlet < 2mm",,26,"","400080G145A521","Interdex Hatch Patterns",,15119278,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","AZ","Alteration zone",,0,"","F4FDD0G145A441","Interdex Hatch Patterns",,16318178,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","SS","Sulphide stringer",,33,"","808000G145A341","Interdex Hatch Patterns",,3031729,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","MV","Magnetite vein",,23,"","C0C0C0G145A211","Interdex Hatch Patterns",,16445938,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","BZ","Breccia zone",,3,"","A4E463G145A361","Interdex Hatch Patterns",,7913089,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","CF","Faulted contact",,4,"","EDF28EG145A2B1","Interdex Hatch Patterns",,16774120,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","CX","Calcite fracture fill",,6,"","DACE3DG145A211","Interdex Hatch Patterns",,16242075,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","DY","Dyke",,8,"","E0C1FFG145A211","Interdex Hatch Patterns",,16772346,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","FC","Fault breccia - angular clasts",,11,"","800080G145A211","Interdex Hatch Patterns",,16350197,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","FR","Fracture",,13,"","53C7D0G145A211","Interdex Hatch Patterns",,12187901,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","FV","Fault vein mass pyrite",,15,"","4080FFG145A221","Interdex Hatch Patterns",,2739701,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","IC","Intrusive contact",,17,"","C0C0C0G145A421","Interdex Hatch Patterns",,14542071,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","J1","Joint set major",,18,"","FF0000G145A421","Interdex Hatch Patterns",,11321578,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","J2","joint set minor",,19,"","8000G145A421","Interdex Hatch Patterns",,6076382,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","J3","Joint set irregular",,20,"","80G145A411","Interdex Hatch Patterns",,8166867,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","LF","Fibre lineation",,21,"","8080G145A231","Interdex Hatch Patterns",,4223684,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","LT","TVA axis lineation",,22,"","80G145A231","Interdex Hatch Patterns",,4872074,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","Q2","Type2 vein @ CFE",,27,"","80FFG145A581","Interdex Hatch Patterns",,13599600,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","SG","Gaphitic shear",,31,"","8080FFG145A361","Interdex Hatch Patterns",,5534441,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","SZ","Shear zone",,35,"","800080G145A341","Interdex Hatch Patterns",,2852911,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","SM","Shear <10m",,32,"","FFG145A341","Interdex Hatch Patterns",,2045920,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","DC","Distrupted contact",,7,"","CDC132G145A211","Interdex Hatch Patterns",,15781943,"",1
+"GEOLOGYCODESECONDARY","Struct_Type","PV","Pyrite vein",,25,"","D2A4A4G145A2A1","Interdex Hatch Patterns",,16306106,"",1
+"GEOLOGYCODESECONDARY","Texture","ACL","Aciluar",,0,"","","",,16775666,"",1
+"GEOLOGYCODESECONDARY","Texture","AHP","Aphanitic",,1,"","","",,16769734,"",1
+"GEOLOGYCODESECONDARY","Texture","AMG","Agglomerate",,2,"","","",,16760704,"",1
+"GEOLOGYCODESECONDARY","Texture","ANG","Angular",,3,"","","",,16750383,"",1
+"GEOLOGYCODESECONDARY","Texture","ANH","Anhedral",,4,"","","",,13789440,"",1
+"GEOLOGYCODESECONDARY","Texture","APL","Aplitic",,5,"","","",,10768896,"",1
+"GEOLOGYCODESECONDARY","Texture","AYG","Amygdaloidal",,6,"","","",,16380671,"",1
+"GEOLOGYCODESECONDARY","Texture","BCL","Bleached",,7,"","","",,15125759,"",1
+"GEOLOGYCODESECONDARY","Texture","BDN","Banded",,8,"","","",,12550399,"",1
+"GEOLOGYCODESECONDARY","Texture","BED","Bedded",,9,"","","",,9049599,"",1
+"GEOLOGYCODESECONDARY","Texture","BLA","Bladed",,10,"","","",,7340255,"",1
+"GEOLOGYCODESECONDARY","Texture","BRK","Broken",,11,"","","",,5963959,"",1
+"GEOLOGYCODESECONDARY","Texture","BRX","Hydrothermal breccia",,12,"","","",,4522122,"",1
+"GEOLOGYCODESECONDARY","Texture","BUD","Boudinaged",,13,"","","",,4194432,"",1
+"GEOLOGYCODESECONDARY","Texture","BXX","Brecciated",,14,"","","",,15134463,"",1
+"GEOLOGYCODESECONDARY","Texture","CBD","Cross bedded",,15,"","","",,12703487,"",1
+"GEOLOGYCODESECONDARY","Texture","CCM","Chilled margin",,16,"","","",,6986751,"",1
+"GEOLOGYCODESECONDARY","Texture","CGN","Coarse grain",,17,"","","",,4227327,"",1
+"GEOLOGYCODESECONDARY","Texture","CLD","Chalcedonic",,18,"","","",,1729791,"",1
+"GEOLOGYCODESECONDARY","Texture","CNC","Conchoidal",,19,"","","",,21245,"",1
+"GEOLOGYCODESECONDARY","Texture","CNT","Contorted",,20,"","","",,18655,"",1
+"GEOLOGYCODESECONDARY","Texture","COL","Colloform",,21,"","","",,14250,"",1
+"GEOLOGYCODESECONDARY","Texture","CON","Conglomerate",,22,"","","",,15138790,"",1
+"GEOLOGYCODESECONDARY","Texture","CRE","Crenulated",,23,"","","",,13303754,"",1
+"GEOLOGYCODESECONDARY","Texture","CRK","Cracked",,24,"","","",,5373777,"",1
+"GEOLOGYCODESECONDARY","Texture","CRN","Crystalline",,25,"","","",,2424722,"",1
+"GEOLOGYCODESECONDARY","Texture","CTB","Contract brecciated",,26,"","","",,58995,"",1
+"GEOLOGYCODESECONDARY","Texture","CTC","Clastic",,27,"","","",,47452,"",1
+"GEOLOGYCODESECONDARY","Texture","CTF","Flow banded margin",,28,"","","",,43092,"",1
+"GEOLOGYCODESECONDARY","Texture","CTG","Gradational contact",,29,"","","",,15790335,"",1
+"GEOLOGYCODESECONDARY","Texture","CTL","Lower contact",,30,"","","",,12895487,"",1
+"GEOLOGYCODESECONDARY","Texture","CTP","Sharp contact",,31,"","","",,10198015,"",1
+"GEOLOGYCODESECONDARY","Texture","CTS","Sheared contact",,32,"","","",,7961087,"",1
+"GEOLOGYCODESECONDARY","Texture","CTT","Transifion contact",,33,"","","",,5592575,"",1
+"GEOLOGYCODESECONDARY","Texture","CTU","Upper contact",,34,"","","",,4342527,"",1
+"GEOLOGYCODESECONDARY","Texture","CUM","Cumulate",,35,"","","",,236,"",1
+"GEOLOGYCODESECONDARY","Texture","CVN","Carbonate veining",,36,"","","",,15794175,"",1
+"GEOLOGYCODESECONDARY","Texture","DEF","Deformed",,37,"","","",,12320767,"",1
+"GEOLOGYCODESECONDARY","Texture","DRS","Drusy",,38,"","","",,9240575,"",1
+"GEOLOGYCODESECONDARY","Texture","EBD","Interbedded",,39,"","","",,4784127,"",1
+"GEOLOGYCODESECONDARY","Texture","ELG","Elongated",,40,"","","",,1441791,"",1
+"GEOLOGYCODESECONDARY","Texture","EQU","Equigranular",,41,"","","",,55769,"",1
+"GEOLOGYCODESECONDARY","Texture","EUH","Euhedral",,42,"","","",,49087,"",1
+"GEOLOGYCODESECONDARY","Texture","EUT","Eutaxitic",,43,"","","",,16777200,"",1
+"GEOLOGYCODESECONDARY","Texture","FBD","Flow banded",,44,"","","",,16777158,"",1
+"GEOLOGYCODESECONDARY","Texture","FGN","Fine grained",,45,"","","",,16777111,"",1
+"GEOLOGYCODESECONDARY","Texture","FIS","Fissile",,46,"","","",,16777062,"",1
+"GEOLOGYCODESECONDARY","Texture","FLS","Flame structure",,47,"","","",,16777020,"",1
+"GEOLOGYCODESECONDARY","Texture","FOL","Foliated",,48,"","","",,15132160,"",1
+"GEOLOGYCODESECONDARY","Texture","FOM","Foliated moderately",,49,"","","",,12171520,"",1
+"GEOLOGYCODESECONDARY","Texture","FOS","Foliated strongly",,50,"","","",,10329344,"",1
+"GEOLOGYCODESECONDARY","Texture","FOW","Foliated weakly",,51,"","","",,14155775,"",1
+"GEOLOGYCODESECONDARY","Texture","FRA","Fractured",,52,"","","",,8978431,"",1
+"GEOLOGYCODESECONDARY","Texture","FRG","Fragmental",,53,"","","",,1441791,"",1
+"GEOLOGYCODESECONDARY","Texture","FSS","Fossiliferous",,54,"","","",,43176,"",1
+"GEOLOGYCODESECONDARY","Texture","GBD","Graded bedded",,55,"","","",,32896,"",1
+"GEOLOGYCODESECONDARY","Texture","GMX","Granular matrix",,56,"","","",,15658734,"",1
+"GEOLOGYCODESECONDARY","Texture","GNS","Gneissic",,57,"","","",,14342874,"",1
+"GEOLOGYCODESECONDARY","Texture","GOS","Gossanous",,58,"","","",,12829635,"",1
+"GEOLOGYCODESECONDARY","Texture","GRA","Granular",,59,"","","",,10658466,"",1
+"GEOLOGYCODESECONDARY","Texture","GRB","Granoblastic",,60,"","","",,8026746,"",1
+"GEOLOGYCODESECONDARY","Texture","GRP","Granophyric",,61,"","","",,6776679,"",1
+"GEOLOGYCODESECONDARY","Texture","GRT","Granitic",,62,"","","",,13816575,"",1
+"GEOLOGYCODESECONDARY","Texture","GRY","Greasy",,63,"","","",,11053311,"",1
+"GEOLOGYCODESECONDARY","Texture","HOM","Homogenous",,64,"","","",,7105791,"",1
+"GEOLOGYCODESECONDARY","Texture","HTG","Heterogenous",,65,"","","",,3947775,"",1
+"GEOLOGYCODESECONDARY","Texture","HYB","Hybridised",,66,"","","",,1842431,"",1
+"GEOLOGYCODESECONDARY","Texture","IEQ","Inequigranular",,67,"","","",,198,"",1
+"GEOLOGYCODESECONDARY","Texture","INC","Inclusions",,68,"","","",,191,"",1
+"GEOLOGYCODESECONDARY","Texture","IND","Indurated",,69,"","","",,16769505,"",1
+"GEOLOGYCODESECONDARY","Texture","JAS","Jasperoidal",,70,"","","",,16764108,"",1
+"GEOLOGYCODESECONDARY","Texture","JON","Jointed",,71,"","","",,16746632,"",1
+"GEOLOGYCODESECONDARY","Texture","KNT","Knotted",,72,"","","",,16738922,"",1
+"GEOLOGYCODESECONDARY","Texture","LAM","Laminated",,73,"","","",,16729670,"",1
+"GEOLOGYCODESECONDARY","Texture","LAP","Lapilli",,74,"","","",,14221312,"",1
+"GEOLOGYCODESECONDARY","Texture","LAY","Layered",,75,"","","",,12255232,"",1
+"GEOLOGYCODESECONDARY","Texture","LBX","Lapilli breccia",,76,"","","",,16769535,"",1
+"GEOLOGYCODESECONDARY","Texture","LCR","Lin / crenulation",,77,"","","",,16764671,"",1
+"GEOLOGYCODESECONDARY","Texture","LEN","Lenticular",,78,"","","",,16745727,"",1
+"GEOLOGYCODESECONDARY","Texture","LIC","Lithic",,79,"","","",,16733695,"",1
+"GEOLOGYCODESECONDARY","Texture","LIN","Lineation",,80,"","","",,12976326,"",1
+"GEOLOGYCODESECONDARY","Texture","LMI","Lin / mineral",,81,"","","",,8388736,"",1
+"GEOLOGYCODESECONDARY","Texture","LPS","Lapilli stone",,82,"","","",,15269864,"",1
+"GEOLOGYCODESECONDARY","Texture","LPT","Lapilli tuff",,83,"","","",,12910532,"",1
+"GEOLOGYCODESECONDARY","Texture","MAS","Massive",,84,"","","",,9568145,"",1
+"GEOLOGYCODESECONDARY","Texture","MGN","Medium grain",,85,"","","",,4259648,"",1
+"GEOLOGYCODESECONDARY","Texture","MIG","Migmatic",,86,"","","",,327428,"",1
+"GEOLOGYCODESECONDARY","Texture","MTS","Matrix support",,87,"","","",,57600,"",1
+"GEOLOGYCODESECONDARY","Texture","MTX","Matrix",,88,"","","",,45824,"",1
+"GEOLOGYCODESECONDARY","Texture","NEB","Nebulitic",,89,"","","",,35328,"",1
+"GEOLOGYCODESECONDARY","Texture","NOD","Nodular",,90,"","","",,30464,"",1
+"GEOLOGYCODESECONDARY","Texture","NSR","No Sample Received",,91,"","","",,4194368,"",1
+"GEOLOGYCODESECONDARY","Texture","OCL","Ocelli",,92,"","","",,16050943,"",1
+"GEOLOGYCODESECONDARY","Texture","OOL","Oolitic",,93,"","","",,14465535,"",1
+"GEOLOGYCODESECONDARY","Texture","OPH","Obicular",,94,"","","",,12615935,"",1
+"GEOLOGYCODESECONDARY","Texture","OVD","Ovoid",,95,"","","",,11295231,"",1
+"GEOLOGYCODESECONDARY","Texture","PEG","Pegmatitic",,96,"","","",,9776127,"",1
+"GEOLOGYCODESECONDARY","Texture","PHE","Phenocrysts",,97,"","","",,7536870,"",1
+"GEOLOGYCODESECONDARY","Texture","PIL","Pillowed",,98,"","","",,6357185,"",1
+"GEOLOGYCODESECONDARY","Texture","PIS","Pisolitic",,99,"","","",,16053482,"",1
+"GEOLOGYCODESECONDARY","Texture","PLY","Polymictic",,100,"","","",,15461334,"",1
+"GEOLOGYCODESECONDARY","Texture","POB","Porphyroblastic",,101,"","","",,13421721,"",1
+"GEOLOGYCODESECONDARY","Texture","POR","Porphyritic",,102,"","","",,12763781,"",1
+"GEOLOGYCODESECONDARY","Texture","PRI","Prismatic",,103,"","","",,11645283,"",1
+"GEOLOGYCODESECONDARY","Texture","PYC","Pyroclastic",,104,"","","",,9539912,"",1
+"GEOLOGYCODESECONDARY","Texture","QEY","Quartz eye",,105,"","","",,7631930,"",1
+"GEOLOGYCODESECONDARY","Texture","QVN","Quartz veining",,106,"","","",,6184495,"",1
+"GEOLOGYCODESECONDARY","Texture","RAD","Radiating",,107,"","","",,15135487,"",1
+"GEOLOGYCODESECONDARY","Texture","RCX","Recrystallised",,108,"","","",,12312063,"",1
+"GEOLOGYCODESECONDARY","Texture","RIP","Ripple marks",,109,"","","",,10801663,"",1
+"GEOLOGYCODESECONDARY","Texture","RND","Rounded",,110,"","","",,7124735,"",1
+"GEOLOGYCODESECONDARY","Texture","SAC","Saccaroidal",,111,"","","",,4629503,"",1
+"GEOLOGYCODESECONDARY","Texture","SBX","Sedimentary breccia",,112,"","","",,295679,"",1
+"GEOLOGYCODESECONDARY","Texture","SCH","Schistose",,113,"","","",,27865,"",1
+"GEOLOGYCODESECONDARY","Texture","SHD","Sheared",,114,"","","",,21414,"",1
+"GEOLOGYCODESECONDARY","Texture","SHL","Schlieren",,115,"","","",,17544,"",1
+"GEOLOGYCODESECONDARY","Texture","SLK","Slikensides",,116,"","","",,13158,"",1
+"GEOLOGYCODESECONDARY","Texture","SLY","Slaty",,117,"","","",,16777185,"",1
+"GEOLOGYCODESECONDARY","Texture","SOF","Soft",,118,"","","",,16777158,"",1
+"GEOLOGYCODESECONDARY","Texture","SOP","Subophitic",,119,"","","",,16777100,"",1
+"GEOLOGYCODESECONDARY","Texture","SPE","Shperulitic",,120,"","","",,16777015,"",1
+"GEOLOGYCODESECONDARY","Texture","SPT","Spotted",,121,"","","",,15395328,"",1
+"GEOLOGYCODESECONDARY","Texture","SPX","Spinifex",,122,"","","",,13816320,"",1
+"GEOLOGYCODESECONDARY","Texture","SRN","Sub-rounded",,123,"","","",,10921472,"",1
+"GEOLOGYCODESECONDARY","Texture","STR","Stromatolitic",,124,"","","",,8421376,"",1
+"GEOLOGYCODESECONDARY","Texture","STV","Stockwork veining",,125,"","","",,16380671,"",1
+"GEOLOGYCODESECONDARY","Texture","STY","Stylolites",,126,"","","",,14531583,"",1
+"GEOLOGYCODESECONDARY","Texture","SUB","Subhedral",,127,"","","",,13606911,"",1
+"GEOLOGYCODESECONDARY","Texture","TAB","Tabular",,128,"","","",,11361279,"",1
+"GEOLOGYCODESECONDARY","Texture","TBX","Tuff breccia",,129,"","","",,7667946,"",1
+"GEOLOGYCODESECONDARY","Texture","TRA","Translucent",,130,"","","",,5701806,"",1
+"GEOLOGYCODESECONDARY","Texture","TTC","Trachytic",,131,"","","",,9681815,"",1
+"GEOLOGYCODESECONDARY","Texture","TUF","Tuffaceous",,132,"","","",,7777645,"",1
+"GEOLOGYCODESECONDARY","Texture","VAR","Variolitic",,133,"","","",,7315294,"",1
+"GEOLOGYCODESECONDARY","Texture","VBX","Volcanic breccia",,134,"","","",,12353929,"",1
+"GEOLOGYCODESECONDARY","Texture","VCL","Volcanoclastic",,135,"","","",,12751508,"",1
+"GEOLOGYCODESECONDARY","Texture","VES","Vesicular",,136,"","","",,13473979,"",1
+"GEOLOGYCODESECONDARY","Texture","VGY","Vuggy",,137,"","","",,11437241,"",1
+"GEOLOGYCODESECONDARY","Texture","VIT","Vitric",,138,"","","",,9149125,"",1
+"GEOLOGYCODESECONDARY","Texture","VND","Veined",,139,"","","",,5276056,"",1
+"GEOLOGYCODESECONDARY","Texture","VOL","Volcanic",,140,"","","",,13536920,"",1
+"GEOLOGYCODESECONDARY","Texture","WEL","Welded",,141,"","","",,8706434,"",1
+"GEOLOGYCODESECONDARY","Texture","WET","Weathered",,142,"","","",,6018783,"",1
+"GEOLOGYCODESECONDARY","Texture","WXY","Waxy",,143,"","","",,9969524,"",1
+"GEOLOGYCODESECONDARY","Texture","XNO","Xenolithic",,144,"","","",,6458320,"",1
+"GEOLOGYCODESECONDARY","Weathng","NSR","No Sample Received",1,0,"","0G145A2A1","Interdex Hatch Patterns",4194368,4194368,"",1
+"GEOLOGYCODESECONDARY","Weathng","W0","Fresh rock, may include minor oxidisation.",2,1,"","DDC9C6G145A211","Interdex Hatch Patterns",13020051,10932733,"",1
+"GEOLOGYCODESECONDARY","Weathng","W1","Saprock, weathered insitu rock, 10% prime minerals",3,2,"","8AC486G145A211","Interdex Hatch Patterns",12751749,10198741,"",1
+"GEOLOGYCODESECONDARY","Weathng","W2","Saprolite clay, weathered insitu rock",4,3,"","88B0E8G145A211","Interdex Hatch Patterns",10843738,7108296,"",1
+"GEOLOGYCODESECONDARY","Weathng","W3","Transported Material - laterite & capping",5,4,"","697ADCG145A211","Interdex Hatch Patterns",9134409,16512,"",1
+"GRIDCODE","SetUp","Survey","",,,"","","",,,"",1
+"GRIDCODE","SetUp","Compass","",,,"","","",,,"",1
+"GRIDCODE","SetUp","GPS","",,,"","","",,,"",1
+"GRIDCODE","OriginalName","Osburne","Clarckson JV",,,"","","",,,"",1
+"GRIDCODE","OriginalName","Westfields","Clarckson JV",,,"","","",,,"",1
+"HOLECODE","Grid_Original","Osberne","Smithfield JV",,,"","","",,,"",1
+"HOLECODE","Grid_Original","Jumbing Jack","Smighfield JV",,,"","","",,,"",1
+"HOLECODE","Logged_By","BEF","B.E.FIELD",,0,"","","",,11055342,"",1
+"HOLECODE","Logged_By","LLW","L.L.WILD",,1,"","","",,15792588,"",1
+"HOLECODE","Logged_By","GRG","G.R.GREGORY",,2,"","","",,16772294,"",1
+"HOLECODE","Logged_By","JWG","John Gardener",,3,"","","",,9687011,"",1
+"SURVEYCODE","Instrument","EastSS","Single Shot",,0,"","","",,,"",1
+"SURVEYCODE","Instrument","EastMulti","Multi Shot",,1,"","","",,,"",1
+"SURVEYCODE","Instrument","Estimate","",,2,"","","",,,"",1
+"SURVEYCODE","Instrument","GPS","",,3,"","","",,,"",1
+"SURVEYCODE","Instrument","Gyro","",,4,"","","",,,"",1
+"SURVEYCODE","Instrument","Historic","",,5,"","","",,,"",1
+"SURVEYCODE","Instrument","PickUp","",,6,"","","",,,"",1
+"SURVEYCODE","Instrument","Survey","",,7,"","","",,,"",1
+"SURVEYCODE","Instrument","Gyro PK","Parkston Instruments",,8,"","","",,,"",1
+"WATERCODE","LithDesc","SiltySand","",,,"","","",,,"",1
+"WATERCODE","LithDesc","SiltyClay","",,,"","","",,,"",1
+"WATERCODE","LithDesc","SandyGravel","",,,"","","",,,"",1
+"WATERCODE","LithDesc","Clay","",,,"","","",,,"",1
+"WATERCODE","LithDesc","ClayeySand","",,,"","","",,,"",1
+"WATERCODE","LithDesc","Sand","",,,"","","",,,"",1
+"WATERCODE","LithDesc","Granite","",,,"","","",,,"",1
+"WATERCODE","LithDesc","SandySilt","",,,"","","",,,"",1
+"WATERCODE","LithDesc","Siltstone","",,,"","","",,,"",1
+"WATERCODE","LithDesc","Gravel","",,,"","","",,,"",1
+"WATERCODE","LithDesc","SandyClay","",,,"","","",,,"",1
+"WATERCODE","LithDesc","WeathGranite","",,,"","","",,,"",1
