@@ -40,10 +40,15 @@ def main():
 	session.setFieldsList("Interval2")
 	session.setFieldsList("Samples")
 	# test
+	session.parseFile("Hole")
+	
 	# print session.getFieldNames("Samples")
 	# print session.dictOfFields["Hole"][-1]
-	for fld in session.dictOfFields["Survey"]:
-		print fld
+	# for fld in session.dictOfFields["Hole"]:
+	#	print fld
+	# for key in session.dictOfFields:
+	#	print key, session.dictOfFields[key]
+
 
 
 	#print colar.fileNameTest
