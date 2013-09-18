@@ -6,7 +6,7 @@
 ## for ticket ID42
 ## 
 ## Rodrigo Nobrega
-## 20130917-
+## 20130917-20130918
 #################################################
 
 
@@ -20,7 +20,7 @@ class WebView(object):
 
 	# constructor with attributes
 	def __init__(self):
-		super(ClassName, self).__init__()
+		super(WebView, self).__init__()
 		# self.arg = arg
 		self.pageSet = {}
 

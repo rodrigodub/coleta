@@ -4,27 +4,31 @@
 ## Main (Test)
 ## Main routine / test
 ## 
-## v0.1.1
+## v0.1.2
 ## 
 ## 
 ## Rodrigo Nobrega
-## 20130914-20130915
+## 20130914-20130918
 #################################################
 
 
 
 # import classes
 from Download import *
+from WebView import *
 
 
 # main loop
 def main():
 	# prototype source of tables: csv files  
-	file1 = '../Test/acQuire Data/01 All Collar.csv' 
+	file1 = '../Test/acQuire Data/01b All Collar.csv' 
 	file2 = '../Test/acQuire Data/02 Survey.csv'
 	file3 = '../Test/acQuire Data/03 Lithology.csv'
 	file4 = '../Test/acQuire Data/04 Alteration.csv'
 	file5 = '../Test/acQuire Data/05 Samples Checks.csv'
+
+	# from Download #################################
+
 	# create instance: session
 	session = Download()
 	# define source tables
@@ -39,8 +43,21 @@ def main():
 	session.setFieldsList("Interval1")
 	session.setFieldsList("Interval2")
 	session.setFieldsList("Samples")
+	
+	# from WebView ##################################
+
+	# create instance: web
+	web = WebView()
+	# define final dictionary
+	for k, v in session.iteritems():
+		if v:
+			web[k] = v
+
+
+
 	# test
-	session.parseFile("Hole")
+	print web
+	# session.parseFile("Hole")
 	
 	# print session.getFieldNames("Samples")
 	# print session.dictOfFields["Hole"][-1]

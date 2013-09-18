@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-file1 = 'acQuire Data/01 All Collar.csv' 
+file1 = 'acQuire Data/01b All Collar.csv' 
 list1 = []
 list2 = []
 
