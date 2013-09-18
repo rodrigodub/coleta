@@ -49,14 +49,14 @@ def main():
 	# create instance: web
 	web = WebView()
 	# define final dictionary
-	for k, v in session.iteritems():
+	for k, v in session.dictOfTables.iteritems():
 		if v:
-			web[k] = v
+			web.pageSet[k] = v
 
 
 
 	# test
-	print web
+	print sorted(web.pageSet)
 	# session.parseFile("Hole")
 	
 	# print session.getFieldNames("Samples")
