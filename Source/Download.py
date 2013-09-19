@@ -2,25 +2,27 @@
 ## Download
 ## Routine to get Data to Work on
 ## 
-## v0.1.1
+## v0.1.2
 ## for ticket ID43
 ## 
 ## Rodrigo Nobrega
-## 20130914-20130915
+## 20130914-20130919
 #################################################
 
 
 # class Download
 class Download(object):
-	"""Define the Download data to go offline"""
+	"""
+	Define the Download data to go offline
+	"""
 
 	# constructor with attributes
 	def __init__(self):
 		super(Download, self).__init__()
 		#self.fileName = fileName
-		self.dictOfTables = {"Hole":"", "Survey":"", "Interval1":"", "Interval2":"", "Interval3":"", "Interval4":"", "Interval5":"", "Samples":""}
-		self.dictOfFields = {"Hole":[], "Survey":[], "Interval1":[], "Interval2":[], "Interval3":[], "Interval4":[], "Interval5":[], "Samples":[]}
-
+		self.tableOrder = {"Hole":1, "Survey":2, "Interval1":3, "Interval2":4, "Interval3":5, "Interval4":6, "Interval5":7, "Samples":8}
+		self.dictOfTables = {1:"", 2:"", 3:"", 4:"", 5:"", 6:"", 7:"", 8:""}
+		self.dictOfFields = {1:[], 2:[], 3:[], 4:[], 5:[], 6:[], 7:[], 8:[]}
 
 	# parse file / parseFile
 	def parseFile(self,dictkey):

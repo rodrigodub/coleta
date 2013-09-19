@@ -32,17 +32,17 @@ def main():
 	# create instance: session
 	session = Download()
 	# define source tables
-	session.setTableSource("Hole", file1)
-	session.setTableSource("Survey", file2)
-	session.setTableSource("Interval1", file3)
-	session.setTableSource("Interval2", file4)
-	session.setTableSource("Samples", file5)
-	# get the fields list
-	session.setFieldsList("Hole")
-	session.setFieldsList("Survey")
-	session.setFieldsList("Interval1")
-	session.setFieldsList("Interval2")
-	session.setFieldsList("Samples")
+	session.setTableSource(1, file1)
+	session.setTableSource(2, file2)
+	session.setTableSource(3, file3)
+	session.setTableSource(4, file4)
+	session.setTableSource(8, file5)
+	# set the fields list
+	session.setFieldsList(1)
+	session.setFieldsList(2)
+	session.setFieldsList(3)
+	session.setFieldsList(4)
+	session.setFieldsList(8)
 	
 	# from WebView ##################################
 
@@ -56,15 +56,27 @@ def main():
 
 
 	# test
-	print sorted(web.pageSet)
-	# session.parseFile("Hole")
+
+	# WebView ######################################
+	#print help(web)
+	#print web.pageSet
+	#print sorted(web.pageSet)
+	for i,k in enumerate(sorted(web.pageSet)):
+		print i,k, web.pageSet[k]
+	#for i in range(0, web.)
 	
-	# print session.getFieldNames("Samples")
-	# print session.dictOfFields["Hole"][-1]
-	# for fld in session.dictOfFields["Hole"]:
+	
+	# Download ######################################
+	#print help(session)
+	#print session.getFieldNames("Samples")
+	#print session.dictOfFields["Hole"][-1]
+	#print session.dictOfTables
+	#print session.dictOfFields
+	#for fld in session.dictOfFields["Hole"]:
 	#	print fld
-	# for key in session.dictOfFields:
+	#for key in session.dictOfFields:
 	#	print key, session.dictOfFields[key]
+	#session.parseFile("Hole")
 
 
 
