@@ -23,7 +23,7 @@ class WebView(object):
 		super(WebView, self).__init__()
 		# self.arg = arg
 		self.pageSet = {}
-		self.holeList = []
+		
 
 
 	

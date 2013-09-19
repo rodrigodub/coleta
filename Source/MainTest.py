@@ -4,11 +4,11 @@
 ## Main (Test)
 ## Main routine / test
 ## 
-## v0.1.2
+## v0.1.3
 ## 
 ## 
 ## Rodrigo Nobrega
-## 20130914-20130918
+## 20130914-20130919
 #################################################
 
 
@@ -32,17 +32,19 @@ def main():
 	# create instance: session
 	session = Download()
 	# define source tables
-	session.setTableSource(1, file1)
-	session.setTableSource(2, file2)
-	session.setTableSource(3, file3)
-	session.setTableSource(4, file4)
-	session.setTableSource(8, file5)
+	session.setTableSource("Hole", file1)
+	session.setTableSource("Survey", file2)
+	session.setTableSource("Interval1", file3)
+	session.setTableSource("Interval2", file4)
+	session.setTableSource("Samples", file5)
 	# set the fields list
-	session.setFieldsList(1)
-	session.setFieldsList(2)
-	session.setFieldsList(3)
-	session.setFieldsList(4)
-	session.setFieldsList(8)
+	session.setFieldsList("Hole")
+	session.setFieldsList("Survey")
+	session.setFieldsList("Interval1")
+	session.setFieldsList("Interval2")
+	session.setFieldsList("Samples")
+	# define the Hole List
+	session.defineHoleList()
 	
 	# from WebView ##################################
 
@@ -60,29 +62,29 @@ def main():
 	# WebView ######################################
 	#print help(web)
 	#print web.pageSet
+	#print web.pageSet[session.tableOrder["Samples"]]
 	#print sorted(web.pageSet)
-	for i,k in enumerate(sorted(web.pageSet)):
-		print i,k, web.pageSet[k]
-	#for i in range(0, web.)
+	#for i,k in enumerate(sorted(web.pageSet)):
+	#	print k, web.pageSet[k]
+	
 	
 	
 	# Download ######################################
+	print session.holeList
+	#print session.tableOrder["Samples"]
 	#print help(session)
-	#print session.getFieldNames("Samples")
-	#print session.dictOfFields["Hole"][-1]
+	#print session.getFieldNames("Interval1")
 	#print session.dictOfTables
+	#print session.dictOfTables[session.tableOrder["Hole"]]
 	#print session.dictOfFields
-	#for fld in session.dictOfFields["Hole"]:
+	#print session.dictOfFields[session.tableOrder["Hole"]][-1]
+	#for fld in session.dictOfFields[session.tableOrder["Hole"]]:
 	#	print fld
 	#for key in session.dictOfFields:
 	#	print key, session.dictOfFields[key]
 	#session.parseFile("Hole")
 
 
-
-	#print colar.fileNameTest
-	#colar.parseFileTest()
-	#colar.getFieldNamesTest()
 	
  
 

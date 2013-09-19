@@ -2,7 +2,7 @@
 ## Download
 ## Routine to get Data to Work on
 ## 
-## v0.1.2
+## v0.1.3
 ## for ticket ID43
 ## 
 ## Rodrigo Nobrega
@@ -23,11 +23,13 @@ class Download(object):
 		self.tableOrder = {"Hole":1, "Survey":2, "Interval1":3, "Interval2":4, "Interval3":5, "Interval4":6, "Interval5":7, "Samples":8}
 		self.dictOfTables = {1:"", 2:"", 3:"", 4:"", 5:"", 6:"", 7:"", 8:""}
 		self.dictOfFields = {1:[], 2:[], 3:[], 4:[], 5:[], 6:[], 7:[], 8:[]}
+		self.holeList = []
 
-	# parse file / parseFile
-	def parseFile(self,dictkey):
+
+	# parse file passed as parameter 
+	def parseFile(self,dictval):
 		# open
-		arq = open(self.dictOfTables[dictkey],'r')
+		arq = open(self.dictOfTables[self.tableOrder[dictval]],'r')
 		# iterate
 		for eachLine in arq:
 			print eachLine
@@ -35,15 +37,15 @@ class Download(object):
 		arq.close()
 
 
-	# define tables source / setTableSource
-	def setTableSource(self,dictkey,fileName):
-		self.dictOfTables[dictkey] = fileName
+	# define tables source that will fill dictOfTables
+	def setTableSource(self,dictval,fileName):
+		self.dictOfTables[self.tableOrder[dictval]] = fileName
 
 		
-	# get field names / getFieldNames
-	def getFieldNames(self,dictkey):
+	# get field names from file 
+	def getFieldNames(self,dictval):
 		# open
-		arq = open(self.dictOfTables[dictkey],'r')
+		arq = open(self.dictOfTables[self.tableOrder[dictval]],'r')
 		# get first line
 		fieldList = arq.readline().replace("\r\n","").split(",")
 		# return fieldList
@@ -52,8 +54,34 @@ class Download(object):
 		arq.close()
 
 
-	# set fields list for the table / setFieldsList
-	def setFieldsList(self,dictkey):
-		self.dictOfFields[dictkey] = self.getFieldNames(dictkey)
+	# set fields list for the table 
+	def setFieldsList(self,dictval):
+		self.dictOfFields[self.tableOrder[dictval]] = self.getFieldNames(dictval)
+
+
+	# set list of holes from the "Hole" file 
+	def defineHoleList(self):
+		# temp list with "Hole" file content as lists also
+		tempList = []
+		# parse file to tempList
+		arq = open(self.dictOfTables[self.tableOrder["Hole"]],'r')
+		for eachLine in arq:
+			tempList.append(eachLine.replace("\r\n","").split(","))
+		# find index for HOLEID field
+		idxhole = tempList[0].index("HOLEID")
+		# load the content of this field into holeList
+		for linha in tempList[1:]:
+			self.holeList.append(linha[idxhole])
+		# close
+		arq.close()
+
+
+
+
+
+
+
+
+
 
 
