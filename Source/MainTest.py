@@ -53,7 +53,9 @@ def main():
 	# define final dictionary
 	for k, v in session.dictOfTables.iteritems():
 		if v:
-			web.pageSet[k] = v
+			pass
+		else: 
+			del web.pageSet[k] 
 
 
 
@@ -61,7 +63,7 @@ def main():
 
 	# WebView ######################################
 	#print help(web)
-	#print web.pageSet
+	print web.pageSet
 	#print web.pageSet[session.tableOrder["Samples"]]
 	#print sorted(web.pageSet)
 	#for i,k in enumerate(sorted(web.pageSet)):
@@ -72,6 +74,7 @@ def main():
 	# Download ######################################
 	print session.holeList
 	#print session.tableOrder["Samples"]
+	#print session.tableOrder.keys()
 	#print help(session)
 	#print session.getFieldNames("Interval1")
 	#print session.dictOfTables

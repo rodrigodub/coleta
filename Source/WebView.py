@@ -22,8 +22,10 @@ class WebView(object):
 	def __init__(self):
 		super(WebView, self).__init__()
 		# self.arg = arg
-		self.pageSet = {}
-		
+		self.pageSet = {1:"Hole", 2:"Survey", 3:"Interval1", 4:"Interval2", 5:"Interval3", 6:"Interval4", 7:"Interval5", 8:"Samples"}
+	
+
+	
 
 
 	
