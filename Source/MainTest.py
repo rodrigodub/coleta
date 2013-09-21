@@ -27,6 +27,7 @@ def main():
 	file4 = '../Test/acQuire Data/04 Alteration.csv'
 	file5 = '../Test/acQuire Data/05 Samples Checks.csv'
 
+
 	# from Download #################################
 
 	# create instance: session
@@ -45,34 +46,28 @@ def main():
 	session.setFieldsList("Samples")
 	# define the Hole List
 	session.defineHoleList()
+	# define final contents to create offline db
+	session.setAvailableContent()
+
 	
 	# from WebView ##################################
 
 	# create instance: web
 	web = WebView()
-	# define final dictionary
-	for k, v in session.dictOfTables.iteritems():
-		if v:
-			pass
-		else: 
-			del web.pageSet[k] 
+	# create files list
+	web.createFileList(session.contentList,session.holeList)
 
 
 
-	# test
 
-	# WebView ######################################
-	#print help(web)
-	print web.pageSet
-	#print web.pageSet[session.tableOrder["Samples"]]
-	#print sorted(web.pageSet)
-	#for i,k in enumerate(sorted(web.pageSet)):
-	#	print k, web.pageSet[k]
-	
+	# TEST ##########################################
+
 	
 	
 	# Download ######################################
 	print session.holeList
+	print session.contentList
+	
 	#print session.tableOrder["Samples"]
 	#print session.tableOrder.keys()
 	#print help(session)
@@ -86,6 +81,17 @@ def main():
 	#for key in session.dictOfFields:
 	#	print key, session.dictOfFields[key]
 	#session.parseFile("Hole")
+
+
+
+	# WebView ######################################
+	#print help(web)
+	#print web.pageSet
+	#print web.pageSet[session.tableOrder["Samples"]]
+	#print sorted(web.pageSet)
+	#for i,k in enumerate(sorted(web.pageSet)):
+	#	print k, web.pageSet[k]
+	print web.fileList
 
 
 	

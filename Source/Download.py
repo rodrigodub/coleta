@@ -24,6 +24,7 @@ class Download(object):
 		self.dictOfTables = {1:"", 2:"", 3:"", 4:"", 5:"", 6:"", 7:"", 8:""}
 		self.dictOfFields = {1:[], 2:[], 3:[], 4:[], 5:[], 6:[], 7:[], 8:[]}
 		self.holeList = []
+		self.contentList = {1:"Hole", 2:"Survey", 3:"Interval1", 4:"Interval2", 5:"Interval3", 6:"Interval4", 7:"Interval5", 8:"Samples"}
 
 
 	# parse file passed as parameter 
@@ -47,7 +48,7 @@ class Download(object):
 		# open
 		arq = open(self.dictOfTables[self.tableOrder[dictval]],'r')
 		# get first line
-		fieldList = arq.readline().replace("\r\n","").split(",")
+		fieldList = arq.readline().replace("\r","").replace("\n","").split(",")
 		# return fieldList
 		return fieldList
 		# close
@@ -74,6 +75,15 @@ class Download(object):
 			self.holeList.append(linha[idxhole])
 		# close
 		arq.close()
+		
+
+	# define the contents based on selected source files (or source tables)
+	def setAvailableContent(self):
+		for k, v in self.dictOfTables.iteritems():
+			if v:
+				pass
+			else: 
+				del self.contentList[k] 
 
 
 
