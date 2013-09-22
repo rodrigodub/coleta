@@ -21,7 +21,7 @@ from WebView import *
 # main loop
 def main():
 	# prototype source of tables: csv files  
-	file1 = '../Test/acQuire Data/01b All Collar.csv' 
+	file1 = '../Test/acQuire Data/01c All Collar.csv' 
 	file2 = '../Test/acQuire Data/02 Survey.csv'
 	file3 = '../Test/acQuire Data/03 Lithology.csv'
 	file4 = '../Test/acQuire Data/04 Alteration.csv'
@@ -56,6 +56,9 @@ def main():
 	web = WebView()
 	# create files list
 	web.createFileList(session.contentList,session.holeList)
+	# create index.html file
+	web.createIndexPage(session.holeList)
+
 
 
 
