@@ -8,7 +8,7 @@
 ## 
 ## 
 ## Rodrigo Nobrega
-## 20130914-20130919
+## 20130914-20130926
 #################################################
 
 
@@ -55,9 +55,11 @@ def main():
 	# create instance: web
 	web = WebView()
 	# create files list
-	web.createFileList(session.contentList,session.holeList)
+	web.createFileList(session.contentList, session.holeList)
 	# create index.html file
-	web.createIndexPage(session.holeList)
+	web.createIndexPage(session.contentList, session.holeList)
+	# create Hole%.html files
+	web.createHolePages(session.contentList, session.holeList)
 
 
 
