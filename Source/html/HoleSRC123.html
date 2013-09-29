@@ -6,21 +6,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="../Bootstrap/assets/ico/favicon.png">
-    <title>Coleta : Offline data collection</title>
-    <!-- Bootstrap core CSS -->
+    <title>Coleta : SRC123 Collar</title>
     <link href="../Bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-    <!-- Bootstrap theme -->
     <link href="../Bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
     <link href="theme.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
       <script src="../Bootstrap/assets/js/html5shiv.js"></script>
       <script src="../Bootstrap/assets/js/respond.min.js"></script>
-    <![endif]-->
   </head>
   <body>
-    <!-- Fixed navbar -->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -29,20 +22,20 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Coleta</a>
+          <a class="navbar-brand" href="index.html">Coleta</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Collar</a></li>
-            <li><a href="#about">Survey</a></li>
+            <li class="active"><a href="HoleSRC123.html">Collar</a></li>
+            <li><a href="SurveySRC123.html">Survey</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Geology <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Intervals <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Lithology</a></li>
-                <li><a href="#">Alteration</a></li>
+                <li><a href="Interval1SRC123.html">Interval1</a></li>
+                <li><a href="Interval2SRC123.html">Interval2</a></li>
               </ul>
             </li>
-            <li><a href="#contact">Samples and Checks</a></li>
+            <li><a href="SamplesSRC123.html">Samples and Checks</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -50,139 +43,97 @@
     <div class="container theme-showcase">
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h1>Collar</h1>
-        <p>The place to edit prospect, gridname & coordinates, hole depth, start & end dates, and make comments about a hole.</p>
+        <h1>SRC123</h1>
+        <p>Edit drillhole collar details.</p>
         <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
       </div>
-      <!-- DRILLHOLE SELECTOR -->
-      <div class="page-header">
-        <h1>Drillhole</h1>
-      </div>
-      <ul class="nav nav-pills nav-justified">
-        <li class="active"><a href="#">RPN123</a></li>
-        <li><a href="#">RPN124</a></li>
-        <li><a href="#">SRC122</a></li>
-        <li><a href="#">SRC123</a></li>
-      </ul>
       <!-- DRILLHOLE DETAILS -->
       <div class="page-header">
-        <h1>Details</h1>
+        <h1>Collar Details</h1>
       </div>
       <form class="form-inline" role="form">
         <div class="form-group">
           <label for="PROJECTCODE">PROJECTCODE</label>
-          <select id="PROJECTCODE" class="form-control" disabled>
-            <option>Merlot</option>
-          </select>
+          <input type="text" class="form-control" id="PROJECTCODE" placeholder="PROJECTCODE">
         </div>
         <div class="form-group">
           <label for="TENEMENTID">TENEMENTID</label>
-          <select id="TENEMENTID" class="form-control">
-            <option>E446</option>
-            <option>E447</option>
-            <option>F256</option>
-            <option>W3328</option>
-          </select>
+          <input type="text" class="form-control" id="TENEMENTID" placeholder="TENEMENTID">
         </div>
         <div class="form-group">
           <label for="GRIDNAME">GRIDNAME</label>
-          <select id="GRIDNAME" class="form-control">
-            <option>Merlot</option>
-            <option>Cabernet</option>
-            <option>Shiraz</option>
-            <option>Carmenere</option>
-          </select>
+          <input type="text" class="form-control" id="GRIDNAME" placeholder="GRIDNAME">
         </div>
         <div class="form-group">
           <label for="HOLETYPE">HOLETYPE</label>
-          <select id="HOLETYPE" class="form-control" disabled>
-            <option>DRILLHOLE</option>
-          </select>
+          <input type="text" class="form-control" id="HOLETYPE" placeholder="HOLETYPE">
         </div>
         <div class="form-group">
           <label for="EAST">EAST</label>
-          <input type="number" class="form-control" id="EAST" placeholder="EAST">
+          <input type="text" class="form-control" id="EAST" placeholder="EAST">
         </div>
         <div class="form-group">
           <label for="NORTH">NORTH</label>
-          <input type="number" class="form-control" id="NORTH" placeholder="NORTH">
+          <input type="text" class="form-control" id="NORTH" placeholder="NORTH">
         </div>
         <div class="form-group">
           <label for="RL">RL</label>
-          <input type="number" class="form-control" id="RL" placeholder="RL">
+          <input type="text" class="form-control" id="RL" placeholder="RL">
         </div>
         <div class="form-group">
           <label for="DEPTH">DEPTH</label>
-          <input type="number" class="form-control" id="DEPTH" placeholder="DEPTH">
+          <input type="text" class="form-control" id="DEPTH" placeholder="DEPTH">
         </div>
         <div class="form-group">
           <label for="PROSPECT">PROSPECT</label>
-          <select id="PROSPECT" class="form-control">
-            <option>Merlot</option>
-            <option>Cabernet</option>
-            <option>Shiraz</option>
-            <option>Carmenere</option>
-          </select>
+          <input type="text" class="form-control" id="PROSPECT" placeholder="PROSPECT">
         </div>
         <div class="form-group">
           <label for="STARTDATE">STARTDATE</label>
-          <input type="date" class="form-control" id="STARTDATE" placeholder="STARTDATE">
+          <input type="text" class="form-control" id="STARTDATE" placeholder="STARTDATE">
         </div>
         <div class="form-group">
           <label for="ENDDATE">ENDDATE</label>
-          <input type="date" class="form-control" id="ENDDATE" placeholder="ENDDATE">
-        </div> 
+          <input type="text" class="form-control" id="ENDDATE" placeholder="ENDDATE">
+        </div>
         <div class="form-group">
           <label for="Grid_Original">Grid_Original</label>
-          <select id="Grid_Original" class="form-control">
-            <option>Merlot</option>
-            <option>Cabernet</option>
-            <option>Shiraz</option>
-            <option>Carmenere</option>
-          </select>
+          <input type="text" class="form-control" id="Grid_Original" placeholder="Grid_Original">
         </div>
         <div class="form-group">
           <label for="Logged_By">Logged_By</label>
-          <select id="Logged_By" class="form-control">
-            <option>Merlot</option>
-            <option>Cabernet</option>
-            <option>Shiraz</option>
-            <option>Carmenere</option>
-          </select>
+          <input type="text" class="form-control" id="Logged_By" placeholder="Logged_By">
         </div>
         <div class="form-group">
           <label for="DrillCompany">DrillCompany</label>
-          <select id="DrillCompany" class="form-control">
-            <option>Merlot</option>
-            <option>Cabernet</option>
-            <option>Shiraz</option>
-            <option>Carmenere</option>
-          </select>
+          <input type="text" class="form-control" id="DrillCompany" placeholder="DrillCompany">
         </div>
         <div class="form-group">
           <label for="Rig">Rig</label>
-          <select id="Rig" class="form-control">
-            <option>Merlot</option>
-            <option>Cabernet</option>
-            <option>Shiraz</option>
-            <option>Carmenere</option>
-          </select>
+          <input type="text" class="form-control" id="Rig" placeholder="Rig">
         </div>
         <div class="form-group">
           <label for="Status">Status</label>
-          <select id="Status" class="form-control">
-            <option>Merlot</option>
-            <option>Cabernet</option>
-            <option>Shiraz</option>
-            <option>Carmenere</option>
-          </select>
+          <input type="text" class="form-control" id="Status" placeholder="Status">
         </div>
         <div class="form-group">
           <label for="HoleComments">HoleComments</label>
-          <textarea class="form-control" id="HoleComments"placeholder="HoleComments" rows="3"></textarea>
+          <input type="text" class="form-control" id="HoleComments" placeholder="HoleComments">
         </div>
       </form>
-      <p></p>
+      <!-- DRILLHOLE SELECTOR -->
+      <div class="page-header">
+        <h3>Change drillhole</h3>
+      </div>
+      <ul class="nav nav-pills nav-justified">
+        <li><a href="HoleRPN123.html">RPN123</a></li>
+        <li><a href="HoleRPN124.html">RPN124</a></li>
+        <li><a href="HoleRPN456.html">RPN456</a></li>
+        <li><a href="HoleRPN457.html">RPN457</a></li>
+        <li><a href="HoleSRC122.html">SRC122</a></li>
+        <li class="active disabled"><a href="HoleSRC123.html">SRC123</a></li>
+      </ul>
+      <br></br>
       <div class="well">
         <p class="text-right"><small>&copy;2013 ::: Version 0.1</small></p>
       </div>

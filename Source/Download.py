@@ -75,6 +75,8 @@ class Download(object):
 			self.holeList.append(linha[idxhole])
 		# close
 		arq.close()
+		# sort list
+		self.holeList.sort()
 		
 
 	# define the contents based on selected source files (or source tables)

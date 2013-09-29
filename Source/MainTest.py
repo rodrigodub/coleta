@@ -59,7 +59,7 @@ def main():
 	# create index.html file
 	web.createIndexPage(session.contentList, session.holeList)
 	# create Hole%.html files
-	web.createHolePages(session.contentList, session.holeList)
+	web.createHolePages(session.contentList, session.holeList, session.dictOfFields[1])
 
 
 
@@ -79,7 +79,7 @@ def main():
 	#print session.getFieldNames("Interval1")
 	#print session.dictOfTables
 	#print session.dictOfTables[session.tableOrder["Hole"]]
-	#print session.dictOfFields
+	print session.dictOfFields[1]
 	#print session.dictOfFields[session.tableOrder["Hole"]][-1]
 	#for fld in session.dictOfFields[session.tableOrder["Hole"]]:
 	#	print fld
@@ -96,7 +96,7 @@ def main():
 	#print sorted(web.pageSet)
 	#for i,k in enumerate(sorted(web.pageSet)):
 	#	print k, web.pageSet[k]
-	print web.fileList
+	#print web.fileList
 
 
 	

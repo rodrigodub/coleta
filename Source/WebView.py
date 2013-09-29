@@ -124,14 +124,14 @@ class WebView(object):
 	# Parameters:
 	# contentList : dictionary of available files/tables
 	# holeList : the list of selected holes	
-	def createHolePages(self, contentList, holeList):
+	def createHolePages(self, contentList, holeList, fieldList):
 		# iterate between holes
 		for h in holeList:
 			# define file name
 			fileName = 'html/Hole%s.html' % h
 			# open file
 			arq = open(fileName, 'w')
-			# write file, first static part
+			# write file, STATIC
 			arq.write('<!DOCTYPE html>\n')
 			arq.write('<html lang="en">\n')
 			arq.write('  <head>\n')
@@ -140,27 +140,16 @@ class WebView(object):
 			arq.write('    <meta name="description" content="">\n')
 			arq.write('    <meta name="author" content="">\n')
 			arq.write('    <link rel="shortcut icon" href="../Bootstrap/assets/ico/favicon.png">\n')
-
-			arq.write('    <title>Coleta : Offline data collection</title>\n')
-
-			arq.write('    <!-- Bootstrap core CSS -->\n')
+			# write file, DYNAMIC
+			arq.write('    <title>Coleta : %s Collar</title>\n' % h) 
+			# write file, STATIC
 			arq.write('    <link href="../Bootstrap/dist/css/bootstrap.css" rel="stylesheet">\n')
-			arq.write('    <!-- Bootstrap theme -->\n')
 			arq.write('    <link href="../Bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">\n')
-
-			arq.write('    <!-- Custom styles for this template -->\n')
 			arq.write('    <link href="theme.css" rel="stylesheet">\n')
-
-			arq.write('    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->\n')
-			arq.write('    <!--[if lt IE 9]>\n')
 			arq.write('      <script src="../Bootstrap/assets/js/html5shiv.js"></script>\n')
 			arq.write('      <script src="../Bootstrap/assets/js/respond.min.js"></script>\n')
-			arq.write('    <![endif]-->\n')
 			arq.write('  </head>\n')
-
 			arq.write('  <body>\n')
-
-			arq.write('    <!-- Fixed navbar -->\n')
 			arq.write('    <div class="navbar navbar-inverse navbar-fixed-top">\n')
 			arq.write('      <div class="container">\n')
 			arq.write('        <div class="navbar-header">\n')
@@ -169,20 +158,22 @@ class WebView(object):
 			arq.write('            <span class="icon-bar"></span>\n')
 			arq.write('            <span class="icon-bar"></span>\n')
 			arq.write('          </button>\n')
-			arq.write('          <a class="navbar-brand" href="#">Coleta</a>\n')
+			arq.write('          <a class="navbar-brand" href="index.html">Coleta</a>\n')
 			arq.write('        </div>\n')
 			arq.write('        <div class="navbar-collapse collapse">\n')
 			arq.write('          <ul class="nav navbar-nav">\n')
-			arq.write('            <li class="active"><a href="#">Collar</a></li>\n')
-			arq.write('            <li><a href="#about">Survey</a></li>\n')
+			# write file, DYNAMIC
+			arq.write('            <li class="active"><a href="Hole%s.html">Collar</a></li>\n' % h)
+			arq.write('            <li><a href="Survey%s.html">Survey</a></li>\n' % h)
 			arq.write('            <li class="dropdown">\n')
-			arq.write('              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Geology <b class="caret"></b></a>\n')
+			arq.write('              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Intervals <b class="caret"></b></a>\n')
 			arq.write('              <ul class="dropdown-menu">\n')
-			arq.write('                <li><a href="#">Lithology</a></li>\n')
-			arq.write('                <li><a href="#">Alteration</a></li>\n')
+			for k, v in contentList.iteritems():
+				if (k > 2 and k < 8):
+					arq.write('                <li><a href="%s%s.html">%s</a></li>\n' % (v,h,v))
 			arq.write('              </ul>\n')
 			arq.write('            </li>\n')
-			arq.write('            <li><a href="#contact">Samples and Checks</a></li>\n')
+			arq.write('            <li><a href="Samples%s.html">Samples and Checks</a></li>\n' % h)
 			arq.write('          </ul>\n')
 			arq.write('        </div><!--/.nav-collapse -->\n')
 			arq.write('      </div>\n')
@@ -192,149 +183,73 @@ class WebView(object):
 
 			arq.write('      <!-- Main jumbotron for a primary marketing message or call to action -->\n')
 			arq.write('      <div class="jumbotron">\n')
-			arq.write('        <h1>Collar</h1>\n')
-			arq.write('        <p>The place to edit prospect, gridname & coordinates, hole depth, start & end dates, and make comments about a hole.</p>\n')
+			arq.write('        <h1>%s</h1>\n' % h)
+			arq.write('        <p>Edit drillhole collar details.</p>\n')
 			arq.write('        <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>\n')
 			arq.write('      </div>\n')
 
+
+			# drillhole details
+			arq.write('      <!-- DRILLHOLE DETAILS -->\n')
+			arq.write('      <div class="page-header">\n')
+			arq.write('        <h1>Collar Details</h1>\n')
+			arq.write('      </div>\n')
+			# start details
+			arq.write('      <form class="form-inline" role="form">\n')
+			# controls
+			for field in fieldList:
+				if field <> 'HOLEID':
+					arq.write('        <div class="form-group">\n')
+					arq.write('          <label for="%s">%s</label>\n' % (field,field))
+					arq.write('          <input type="text" class="form-control" id="%s" placeholder="%s">\n' % (field,field))
+					arq.write('        </div>\n')
+
+			#arq.write('        <div class="form-group">\n')
+			#arq.write('          <label for="TENEMENTID">TENEMENTID</label>\n')
+			#arq.write('          <select id="TENEMENTID" class="form-control">\n')
+			#arq.write('            <option>E446</option>\n')
+			#arq.write('            <option>E447</option>\n')
+			#arq.write('            <option>F256</option>\n')
+			#arq.write('            <option>W3328</option>\n')
+			#arq.write('          </select>\n')
+			#arq.write('        </div>\n')
+
+			#arq.write('        <div class="form-group">\n')
+			#arq.write('          <label for="HOLETYPE">HOLETYPE</label>\n')
+			#arq.write('          <select id="HOLETYPE" class="form-control" disabled>\n')
+			#arq.write('            <option>DRILLHOLE</option>\n')
+			#arq.write('          </select>\n')
+			#arq.write('        </div>\n')
+			
+			#arq.write('        <div class="form-group">\n')
+			#arq.write('          <label for="EAST">EAST</label>\n')
+			#arq.write('          <input type="number" class="form-control" id="EAST" placeholder="EAST">\n')
+			#arq.write('        </div>\n')
+			
+			#arq.write('        <div class="form-group">\n')
+			#arq.write('          <label for="HoleComments">HoleComments</label>\n')
+			#arq.write('          <textarea class="form-control" id="HoleComments"placeholder="HoleComments" rows="3"></textarea>\n')
+			#arq.write('        </div>\n')    
+
+			# end details                     
+			arq.write('      </form>\n')
+
+			# select holes
 			arq.write('      <!-- DRILLHOLE SELECTOR -->\n')
 			arq.write('      <div class="page-header">\n')
-			arq.write('        <h1>Drillhole</h1>\n')
+			arq.write('        <h3>Change drillhole</h3>\n')
 			arq.write('      </div>\n')
 			arq.write('      <ul class="nav nav-pills nav-justified">\n')
-			arq.write('        <li class="active"><a href="#">RPN123</a></li>\n')
-			arq.write('        <li><a href="#">RPN124</a></li>\n')
-			arq.write('        <li><a href="#">SRC122</a></li>\n')
-			arq.write('        <li><a href="#">SRC123</a></li>\n')
+			for dh in holeList:
+				if dh == h:
+					arq.write('        <li class="active disabled"><a href="Hole%s.html">%s</a></li>\n' % (dh,dh))
+				else:
+					arq.write('        <li><a href="Hole%s.html">%s</a></li>\n' % (dh,dh))			
 			arq.write('      </ul>\n')
 
 
-
-			arq.write('      <!-- DRILLHOLE DETAILS -->\n')
-			arq.write('      <div class="page-header">\n')
-			arq.write('        <h1>Details</h1>\n')
-			arq.write('      </div>\n')
-
-
-
-			arq.write('      <form class="form-inline" role="form">\n')
-			arq.write('        <div class="form-group">\n')
-			arq.write('          <label for="PROJECTCODE">PROJECTCODE</label>\n')
-			arq.write('          <select id="PROJECTCODE" class="form-control" disabled>\n')
-			arq.write('            <option>Merlot</option>\n')
-			arq.write('          </select>\n')
-			arq.write('        </div>\n')
-			arq.write('        <div class="form-group">\n')
-			arq.write('          <label for="TENEMENTID">TENEMENTID</label>\n')
-			arq.write('          <select id="TENEMENTID" class="form-control">\n')
-			arq.write('            <option>E446</option>\n')
-			arq.write('            <option>E447</option>\n')
-			arq.write('            <option>F256</option>\n')
-			arq.write('            <option>W3328</option>\n')
-			arq.write('          </select>\n')
-			arq.write('        </div>\n')
-			arq.write('        <div class="form-group">\n')
-			arq.write('          <label for="GRIDNAME">GRIDNAME</label>\n')
-			arq.write('          <select id="GRIDNAME" class="form-control">\n')
-			arq.write('            <option>Merlot</option>\n')
-			arq.write('            <option>Cabernet</option>\n')
-			arq.write('            <option>Shiraz</option>\n')
-			arq.write('            <option>Carmenere</option>\n')
-			arq.write('          </select>\n')
-			arq.write('        </div>\n')
-			arq.write('        <div class="form-group">\n')
-			arq.write('          <label for="HOLETYPE">HOLETYPE</label>\n')
-			arq.write('          <select id="HOLETYPE" class="form-control" disabled>\n')
-			arq.write('            <option>DRILLHOLE</option>\n')
-			arq.write('          </select>\n')
-			arq.write('        </div>\n')
-			arq.write('        <div class="form-group">\n')
-			arq.write('          <label for="EAST">EAST</label>\n')
-			arq.write('          <input type="number" class="form-control" id="EAST" placeholder="EAST">\n')
-			arq.write('        </div>\n')
-			arq.write('        <div class="form-group">\n')
-			arq.write('          <label for="NORTH">NORTH</label>\n')
-			arq.write('          <input type="number" class="form-control" id="NORTH" placeholder="NORTH">\n')
-			arq.write('        </div>\n')
-			arq.write('        <div class="form-group">\n')
-			arq.write('          <label for="RL">RL</label>\n')
-			arq.write('          <input type="number" class="form-control" id="RL" placeholder="RL">\n')
-			arq.write('        </div>\n')
-			arq.write('        <div class="form-group">\n')
-			arq.write('          <label for="DEPTH">DEPTH</label>\n')
-			arq.write('          <input type="number" class="form-control" id="DEPTH" placeholder="DEPTH">\n')
-			arq.write('        </div>\n')
-			arq.write('        <div class="form-group">\n')
-			arq.write('          <label for="PROSPECT">PROSPECT</label>\n')
-			arq.write('          <select id="PROSPECT" class="form-control">\n')
-			arq.write('            <option>Merlot</option>\n')
-			arq.write('            <option>Cabernet</option>\n')
-			arq.write('            <option>Shiraz</option>\n')
-			arq.write('            <option>Carmenere</option>\n')
-			arq.write('          </select>\n')
-			arq.write('        </div>\n')
-			arq.write('        <div class="form-group">\n')
-			arq.write('          <label for="STARTDATE">STARTDATE</label>\n')
-			arq.write('          <input type="date" class="form-control" id="STARTDATE" placeholder="STARTDATE">\n')
-			arq.write('        </div>\n')
-			arq.write('        <div class="form-group">\n')
-			arq.write('          <label for="ENDDATE">ENDDATE</label>\n')
-			arq.write('          <input type="date" class="form-control" id="ENDDATE" placeholder="ENDDATE">\n')
-			arq.write('        </div> \n')
-			arq.write('        <div class="form-group">\n')
-			arq.write('          <label for="Grid_Original">Grid_Original</label>\n')
-			arq.write('          <select id="Grid_Original" class="form-control">\n')
-			arq.write('            <option>Merlot</option>\n')
-			arq.write('            <option>Cabernet</option>\n')
-			arq.write('            <option>Shiraz</option>\n')
-			arq.write('            <option>Carmenere</option>\n')
-			arq.write('          </select>\n')
-			arq.write('        </div>\n')
-			arq.write('        <div class="form-group">\n')
-			arq.write('          <label for="Logged_By">Logged_By</label>\n')
-			arq.write('          <select id="Logged_By" class="form-control">\n')
-			arq.write('            <option>Merlot</option>\n')
-			arq.write('            <option>Cabernet</option>\n')
-			arq.write('            <option>Shiraz</option>\n')
-			arq.write('            <option>Carmenere</option>\n')
-			arq.write('          </select>\n')
-			arq.write('        </div>\n')
-			arq.write('        <div class="form-group">\n')
-			arq.write('          <label for="DrillCompany">DrillCompany</label>\n')
-			arq.write('          <select id="DrillCompany" class="form-control">\n')
-			arq.write('            <option>Merlot</option>\n')
-			arq.write('            <option>Cabernet</option>\n')
-			arq.write('            <option>Shiraz</option>\n')
-			arq.write('            <option>Carmenere</option>\n')
-			arq.write('          </select>\n')
-			arq.write('        </div>\n')                
-			arq.write('        <div class="form-group">\n')
-			arq.write('          <label for="Rig">Rig</label>\n')
-			arq.write('          <select id="Rig" class="form-control">\n')
-			arq.write('            <option>Merlot</option>\n')
-			arq.write('            <option>Cabernet</option>\n')
-			arq.write('            <option>Shiraz</option>\n')
-			arq.write('            <option>Carmenere</option>\n')
-			arq.write('          </select>\n')
-			arq.write('        </div>\n')
-			arq.write('        <div class="form-group">\n')
-			arq.write('          <label for="Status">Status</label>\n')
-			arq.write('          <select id="Status" class="form-control">\n')
-			arq.write('            <option>Merlot</option>\n')
-			arq.write('            <option>Cabernet</option>\n')
-			arq.write('            <option>Shiraz</option>\n')
-			arq.write('            <option>Carmenere</option>\n')
-			arq.write('          </select>\n')
-			arq.write('        </div>\n')
-			arq.write('        <div class="form-group">\n')
-			arq.write('          <label for="HoleComments">HoleComments</label>\n')
-			arq.write('          <textarea class="form-control" id="HoleComments"placeholder="HoleComments" rows="3"></textarea>\n')
-			arq.write('        </div>\n')                         
-			arq.write('      </form>\n')
-
-
-			arq.write('      <p></p>\n')
-
+			# well
+			arq.write('      <br></br>\n')
 
 			arq.write('      <div class="well">\n')
 			arq.write('        <p class="text-right"><small>&copy;2013 ::: Version 0.1</small></p>\n')
