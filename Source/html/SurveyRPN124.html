@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../Bootstrap/assets/ico/favicon.png">
+    <title>Coleta : RPN124 Survey</title>
+    <link href="../Bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../Bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="theme.css" rel="stylesheet">
+      <script src="../Bootstrap/assets/js/html5shiv.js"></script>
+      <script src="../Bootstrap/assets/js/respond.min.js"></script>
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Coleta</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="HoleRPN124.html">Collar</a></li>
+            <li class="active"><a href="SurveyRPN124.html">Survey</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Intervals <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="Interval1RPN124.html">Interval1</a></li>
+                <li><a href="Interval2RPN124.html">Interval2</a></li>
+              </ul>
+            </li>
+            <li><a href="SamplesRPN124.html">Samples and Checks</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="container theme-showcase">
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>RPN124</h1>
+        <p>Edit downhole survey.</p>
+        <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+      </div>
+      <!-- SURVEY DETAILS -->
+      <div class="page-header">
+        <h1>Survey</h1>
+      </div>
+      <form class="form-inline" role="form">
+        <div class="form-group">
+          <label for="PROJECTCODE">PROJECTCODE</label>
+          <input type="text" class="form-control" id="PROJECTCODE" placeholder="PROJECTCODE">
+        </div>
+        <div class="form-group">
+          <label for="DEPTH">DEPTH</label>
+          <input type="text" class="form-control" id="DEPTH" placeholder="DEPTH">
+        </div>
+        <div class="form-group">
+          <label for="SURVTYPE">SURVTYPE</label>
+          <input type="text" class="form-control" id="SURVTYPE" placeholder="SURVTYPE">
+        </div>
+        <div class="form-group">
+          <label for="AZIMUTH">AZIMUTH</label>
+          <input type="text" class="form-control" id="AZIMUTH" placeholder="AZIMUTH">
+        </div>
+        <div class="form-group">
+          <label for="AZIMUTHTYPE">AZIMUTHTYPE</label>
+          <input type="text" class="form-control" id="AZIMUTHTYPE" placeholder="AZIMUTHTYPE">
+        </div>
+        <div class="form-group">
+          <label for="DIP">DIP</label>
+          <input type="text" class="form-control" id="DIP" placeholder="DIP">
+        </div>
+        <div class="form-group">
+          <label for="PRIORITY">PRIORITY</label>
+          <input type="text" class="form-control" id="PRIORITY" placeholder="PRIORITY">
+        </div>
+        <div class="form-group">
+          <label for="Instrument">Instrument</label>
+          <input type="text" class="form-control" id="Instrument" placeholder="Instrument">
+        </div>
+        <div class="form-group">
+          <label for="MGA_Z50_GDAZIMUTH">MGA_Z50_GDAZIMUTH</label>
+          <input type="text" class="form-control" id="MGA_Z50_GDAZIMUTH" placeholder="MGA_Z50_GDAZIMUTH">
+        </div>
+        <div class="form-group">
+          <label for="WGS84_GDAZIMUTH">WGS84_GDAZIMUTH</label>
+          <input type="text" class="form-control" id="WGS84_GDAZIMUTH" placeholder="WGS84_GDAZIMUTH">
+        </div>
+        <div class="form-group">
+          <label for="Merlot_GDAZIMUTH">Merlot_GDAZIMUTH</label>
+          <input type="text" class="form-control" id="Merlot_GDAZIMUTH" placeholder="Merlot_GDAZIMUTH">
+        </div>
+        <div class="form-group">
+          <label for="Wallaby Mine_GDAZIMUTH">Wallaby Mine_GDAZIMUTH</label>
+          <input type="text" class="form-control" id="Wallaby Mine_GDAZIMUTH" placeholder="Wallaby Mine_GDAZIMUTH">
+        </div>
+        <div class="form-group">
+          <label for="Wallaby Uground_GDAZIMUTH">Wallaby Uground_GDAZIMUTH</label>
+          <input type="text" class="form-control" id="Wallaby Uground_GDAZIMUTH" placeholder="Wallaby Uground_GDAZIMUTH">
+        </div>
+        <div class="form-group">
+          <label for="WaterBore_GDAZIMUTH">WaterBore_GDAZIMUTH</label>
+          <input type="text" class="form-control" id="WaterBore_GDAZIMUTH" placeholder="WaterBore_GDAZIMUTH">
+        </div>
+        <div class="form-group">
+          <label for="South_GDAZIMUTH">South_GDAZIMUTH</label>
+          <input type="text" class="form-control" id="South_GDAZIMUTH" placeholder="South_GDAZIMUTH">
+        </div>
+      </form>
+      <!-- DRILLHOLE SELECTOR -->
+      <div class="page-header">
+        <h3>Change drillhole</h3>
+      </div>
+      <ul class="nav nav-pills nav-justified">
+        <li><a href="SurveyRPN123.html">RPN123</a></li>
+        <li class="active disabled"><a href="SurveyRPN124.html">RPN124</a></li>
+        <li><a href="SurveyRPN456.html">RPN456</a></li>
+        <li><a href="SurveyRPN457.html">RPN457</a></li>
+        <li><a href="SurveySRC122.html">SRC122</a></li>
+        <li><a href="SurveySRC123.html">SRC123</a></li>
+      </ul>
+      <br></br>
+      <div class="well">
+        <p class="text-right"><small>&copy;2013 ::: Version 0.1</small></p>
+      </div>
+    </div> <!-- /container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../Bootstrap/assets/js/jquery.js"></script>
+    <script src="../Bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../Bootstrap/assets/js/holder.js"></script>
+  </body>
+</html>

@@ -60,6 +60,10 @@ def main():
 	web.createIndexPage(session.contentList, session.holeList)
 	# create Hole%.html files
 	web.createHolePages(session.contentList, session.holeList, session.dictOfFields[1])
+	# create Survey%.html files
+	web.createSurveyPages(session.contentList, session.holeList, session.dictOfFields[2])
+	# create Interval%.html files
+	web.createIntervalPages(session.contentList, session.holeList, session.dictOfFields)
 
 
 
